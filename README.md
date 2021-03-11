@@ -50,7 +50,7 @@ A key difference between Avalanche and other decentralized networks is the conse
 
 AVAX is the native token of Avalanche. It’s a hard-capped, scarce asset that is used to pay for fees, secure the platform through staking, and provide a basic unit of account between the multiple subnets created on Avalanche. `1 nAVAX` is equal to `0.000000001 AVAX`.
 
-## Avalanche Fikir birliği Protokolü
+## Avalanche Konsensüs Protokolü
 
 ![Consensus Comparison](.gitbook/assets/consensus-comparison.png)
 
@@ -72,29 +72,29 @@ Learn more technical components of the Avalanche consensus protocol by reading t
 
 Snowman is a chain-optimized consensus protocol–high-throughput, totally-ordered, and great for smart contracts. Snowman is powered by the [Avalanche consensus protocol](./#avalanche-consensus-protocol). Both [P-Chain](learn/platform-overview/#platform-chain-p-chain) and [C-Chain](learn/platform-overview/#contract-chain-c-chain) implement the Snowman consensus protocol.
 
-## Key Features
+## Ana Özellikler
 
-### Speed
+### Hız
 
 Uses a novel consensus protocol, developed by a team of Cornell computer scientists, and is able to permanently confirm transactions in under 1 second.
 
-### Scalability
+### Ölçeklenebilirlik
 
 Capable of 4,500 transactions per second–an order of magnitude greater than existing blockchains.
 
-### Security
+### Güvenlik
 
 Ensures stronger security guarantees well-above the 51% standard of other networks.
 
-### Flexibility
+### Esneklik
 
 Easily create custom blockchains and decentralized apps that contain almost any arbitrary logic.
 
-### Sustainability
+### Sürdürülebilirlik
 
 Uses energy-efficient proof-of-stake consensus algorithm rather than proof-of-work.
 
-### Smart Contract Support
+### Akıllı Sözleşme Desteği
 
 Supports the creation of Solidity smart contracts and your favorite Ethereum tools like Remix, Metamask, Truffle, and more.
 
@@ -107,6 +107,6 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzA2MDY3Nyw0NTA1NDg2ODMsLTg4OT
-U2NzIyXX0=
+eyJoaXN0b3J5IjpbMTQ3Mzk1Nzc0MCwxMDE3MDYwNjc3LDQ1MD
+U0ODY4MywtODg5NTY3MjJdfQ==
 -->
