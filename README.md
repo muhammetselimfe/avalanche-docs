@@ -1,7 +1,7 @@
 ---
 description: >-
-  Avalanche üzerinde limitlere takılmadan uygulamalar geliştirin.  Developers who build on Avalanche
-  can easily create powerful, reliable, and secure applications.
+  Avalanche üzerinde limitlere takılmadan uygulamalar geliştirin.  Avalanche üzerinde çalışan geliştiriciler 
+  kolaylıkla create güçlü, emniyetli, ve güvenli uygulamalar .
 ---
 
 # Geliştirici Dokümantasyonu
@@ -107,5 +107,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzU4MDMzMSwtODg5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbMTk2MjE0NjM4NSwtODg5NTY3MjJdfQ==
 -->
