@@ -102,11 +102,11 @@ Supports the creation of Solidity smart contracts and your favorite Ethereum too
 
 Create your own public or private blockchains.
 
-### Designed for Finance
+### Finans için Tasarlandı
 
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Mzk1Nzc0MCwxMDE3MDYwNjc3LDQ1MD
-U0ODY4MywtODg5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbMTA0OTYyNzkwOSwxNDczOTU3NzQwLDEwMT
+cwNjA2NzcsNDUwNTQ4NjgzLC04ODk1NjcyMl19
 -->
