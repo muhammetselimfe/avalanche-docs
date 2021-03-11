@@ -27,7 +27,7 @@ description: >-
 {% page-ref page="build/tutorials/nodes-and-staking/" %}
 {% endtab %}
 
-{% tab title="Advanced" %}
+{% tab title="İleri seviye" %}
 {% page-ref page="build/tutorials/platform/create-a-subnet.md" %}
 
 {% page-ref page="build/tutorials/platform/create-a-new-blockchain.md" %}
@@ -107,5 +107,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzEwNjQyOCwtODg5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbNDUwNTQ4NjgzLC04ODk1NjcyMl19
 -->
