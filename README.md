@@ -42,7 +42,7 @@ description: >-
 
 ## Avalanche
 
-[Avalanche](https://avax.network) birlikte çalışabilir, oldukça ölçeklenebilir tek bir ekosistemde [merkezi olmayan uygulamaları](https://support.avalabs.org/en/articles/4587146-what-is-a-decentralized-application-dapp) ve kurumsal [blokzincirleri](http://support.avalabs.org/en/articles/4064677-what-is-a-blockchain) oluşturmak için açık kaynaklı bir platformdur. Avalanche, saniyede 4.500'den fazla işlemi gerçekleştiren ve işlemleri anında onaylayan ilk akıllı sözleşme platformudur. Ethereum developers can quickly build on Avalanche as Solidity works out-of-the-box.
+[Avalanche](https://avax.network) birlikte çalışabilir, oldukça ölçeklenebilir tek bir ekosistemde [merkezi olmayan uygulamaları](https://support.avalabs.org/en/articles/4587146-what-is-a-decentralized-application-dapp) ve kurumsal [blokzincirleri](http://support.avalabs.org/en/articles/4064677-what-is-a-blockchain) oluşturmak için açık kaynaklı bir platformdur. Avalanche, saniyede 4.500'den fazla işlemi gerçekleştiren ve işlemleri anında onaylayan ilk akıllı sözleşme platformudur. Ethereum geliştiricileri can quickly build on Avalanche as Solidity works out-of-the-box.
 
 A key difference between Avalanche and other decentralized networks is the consensus protocol. Over time, people have come to a false understanding that blockchains have to be slow and not scalable. The Avalanche protocol employs a novel approach to consensus to achieve its strong safety guarantees, quick finality, and high-throughput, without compromising decentralization.
 
@@ -107,6 +107,7 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzcwMTI2MSwxNDczOTU3NzQwLDEwMT
-cwNjA2NzcsNDUwNTQ4NjgzLC04ODk1NjcyMl19
+eyJoaXN0b3J5IjpbLTE5MTk2MDI0NzIsLTE1MzcwMTI2MSwxND
+czOTU3NzQwLDEwMTcwNjA2NzcsNDUwNTQ4NjgzLC04ODk1Njcy
+Ml19
 -->
