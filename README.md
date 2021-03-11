@@ -1,19 +1,19 @@
 ---
 description: >-
   Avalanche üzerinde limitlere takılmadan uygulamalar geliştirin.  Avalanche üzerinde çalışan geliştiriciler 
-  kolaylıkla create güçlü, emniyetli, ve güvenli uygulamalar .
+  kolaylıkla güçlü, emniyetli, ve güvenli uygulamalar oluşturabilir.
 ---
 
 # Geliştirici Dokümantasyonu
 
 {% tabs %}
-{% tab title="Coming From Ethereum?" %}
+{% tab title="Ethereum'dan mı geliyorsunuz?" %}
 {% page-ref page="build/tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md" %}
 
 {% page-ref page="build/tutorials/smart-contracts/using-truffle-with-the-avalanche-c-chain.md" %}
 {% endtab %}
 
-{% tab title="Avalanche Wallet" %}
+{% tab title="Avalanche Cüzdan" %}
 {% page-ref page="build/tutorials/nodes-and-staking/staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md" %}
 
 {% page-ref page="build/tutorials/platform/transfer-avax-between-x-chain-and-p-chain.md" %}
@@ -107,5 +107,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjE0NjM4NSwtODg5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbMTA4MzEwNjQyOCwtODg5NTY3MjJdfQ==
 -->
