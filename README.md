@@ -4,7 +4,7 @@ description: >-
   can easily create powerful, reliable, and secure applications.
 ---
 
-# Developer Documentation
+# Geliştirici Dokümantasyonu
 
 {% tabs %}
 {% tab title="Coming From Ethereum?" %}
@@ -106,3 +106,6 @@ Create your own public or private blockchains.
 
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg4OTU2NzIyXX0=
+-->
