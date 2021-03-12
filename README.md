@@ -76,7 +76,7 @@ Snowman is a chain-optimized consensus protocol–high-throughput, totally-order
 
 ### Hız
 
-Uses a novel consensus protocol, developed by a team of Cornell computer scientists, and is able to permanently confirm transactions in under 1 second.
+Cornell bilgisayar bilimcilerinden oluşan bir ekip tarafından geliştirilen yeni bir fikir birliği protokolü kullanır ve işlemleri 1 saniyenin altında kalıcı olarak onaylayabilir.
 
 ### Ölçeklenebilirlik
 
@@ -107,7 +107,7 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU1NTYzNzYsLTYzNjk3MjU0LDE2MT
-UzMzkyMjAsLTE1MzcwMTI2MSwxNDczOTU3NzQwLDEwMTcwNjA2
-NzcsNDUwNTQ4NjgzLC04ODk1NjcyMl19
+eyJoaXN0b3J5IjpbLTEzMDIwNDYxNjMsLTE0NzU1NTYzNzYsLT
+YzNjk3MjU0LDE2MTUzMzkyMjAsLTE1MzcwMTI2MSwxNDczOTU3
+NzQwLDEwMTcwNjA2NzcsNDUwNTQ4NjgzLC04ODk1NjcyMl19
 -->
