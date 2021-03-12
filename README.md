@@ -84,11 +84,11 @@ Capable of 4,500 transactions per second–an order of magnitude greater than ex
 
 ### Güvenlik
 
-Ensures stronger security guarantees well-above the 51% standard of other networks.
+Diğer ağların %51 standardının çok üzerinde daha güçlü güvenlik garantileri sağlar.
 
 ### Esneklik
 
-Easily create custom blockchains and decentralized apps that contain almost any arbitrary logic.
+Neredeyse her türlü keyfi mantığı içeren özel blok zincirleri ve merkezi olmayan uygulamaları kolayca oluşturun.
 
 ### Sürdürülebilirlik
 
@@ -107,7 +107,7 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDIwNDYxNjMsLTE0NzU1NTYzNzYsLT
-YzNjk3MjU0LDE2MTUzMzkyMjAsLTE1MzcwMTI2MSwxNDczOTU3
-NzQwLDEwMTcwNjA2NzcsNDUwNTQ4NjgzLC04ODk1NjcyMl19
+eyJoaXN0b3J5IjpbMjA3OTUwMzQwMSwtMTQ3NTU1NjM3NiwtNj
+M2OTcyNTQsMTYxNTMzOTIyMCwtMTUzNzAxMjYxLDE0NzM5NTc3
+NDAsMTAxNzA2MDY3Nyw0NTA1NDg2ODMsLTg4OTU2NzIyXX0=
 -->
