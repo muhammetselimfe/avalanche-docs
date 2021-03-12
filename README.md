@@ -88,11 +88,11 @@ Diğer ağların %51 standardının çok üzerinde daha güçlü güvenlik garan
 
 ### Esneklik
 
-Neredeyse her türlü keyfi mantığı içeren özel blok zincirleri ve merkezi olmayan uygulamaları kolayca oluşturun.
+Neredeyse her türlü keyfi mantığı içeren özel blok zincirleri ve merkeziyetsiz uygulamaları kolayca oluşturun.
 
 ### Sürdürülebilirlik
 
-Uses energy-efficient proof-of-stake consensus algorithm rather than proof-of-work.
+proof-of-work algoritması yerine ener yerine  Uses energy-efficient proof-of-stake consensus algorithm rather than 
 
 ### Akıllı Sözleşme Desteği
 
@@ -107,7 +107,7 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTUwMzQwMSwtMTQ3NTU1NjM3NiwtNj
-M2OTcyNTQsMTYxNTMzOTIyMCwtMTUzNzAxMjYxLDE0NzM5NTc3
-NDAsMTAxNzA2MDY3Nyw0NTA1NDg2ODMsLTg4OTU2NzIyXX0=
+eyJoaXN0b3J5IjpbLTEyNjgyNDUxOTQsLTE0NzU1NTYzNzYsLT
+YzNjk3MjU0LDE2MTUzMzkyMjAsLTE1MzcwMTI2MSwxNDczOTU3
+NzQwLDEwMTcwNjA2NzcsNDUwNTQ4NjgzLC04ODk1NjcyMl19
 -->
