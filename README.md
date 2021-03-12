@@ -96,18 +96,18 @@ Proof-of-work algoritması yerine enerji verimliliği çok daha iyi olan proof-o
 
 ### Akıllı Sözleşme Desteği
 
-Solidity akıllı sözleşmeleri oluşturabilmeyi sağlar ve Remix, Metamask, Truffle ve daha fazlası gibi en sevdiğiniz Ethereum araçlarının destekler. Supports the creation of Solidity smart contracts and your favorite Ethereum tools like Remix, Metamask, Truffle, and more.
+Solidity akıllı sözleşmeleri oluşturabilmeyi sağlar ve Remix, Metamask, Truffle vb. en sevdiğiniz Ethereum araçlarının destekler. 
 
 ### Özel ve Genel Blokzincirleri
 
-Create your own public or private blockchains.
+Kendi genel veya özel blok zincirlerinizi oluşturun.
 
 ### Finans için Tasarlandı
 
-Native support for easily creating and trading digital smart assets with complex, custom rulesets.
+Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4MzgzMDc1LC0xNDc1NTU2Mzc2LC02Mz
+eyJoaXN0b3J5IjpbNTIzNTEyNjIyLC0xNDc1NTU2Mzc2LC02Mz
 Y5NzI1NCwxNjE1MzM5MjIwLC0xNTM3MDEyNjEsMTQ3Mzk1Nzc0
 MCwxMDE3MDYwNjc3LDQ1MDU0ODY4MywtODg5NTY3MjJdfQ==
 -->
