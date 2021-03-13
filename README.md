@@ -56,7 +56,7 @@ AVAX, Avalanche ağının yerel token'ıdır. İşlem ücretlerini ödemek, stak
 
 Avalanche ailesindeki protokoller, tekrarlanan alt örneklemeli oylama yoluyla çalışır. [Doğrulayıcı](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) bir [işlemin](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) kabul edilip edilmeyeceğini belirlerken, işlemin kabul edilmesi veya reddedilmesi gerektiğini düşündükleri küçük, rastgele bir doğrulayıcı alt kümesine sorar. Sorgulanan doğrulayıcı işlemin geçersiz olduğunu düşünürse, işlemi zaten reddetmişse veya çakışan bir işlemi tercih ederse, işlemin reddedilmesi gerektiğini düşündüğü yanıtını verir. Aksi takdirde işlemin kabul edilmesi gerektiğini düşündüğünü söyler.
 
-Örneklenen doğrulayıcıların yeterince büyük bir bölümü \(_alpha_ $$α$$\) işlemin kabul edilmesi gerektiğini düşündüklerini söylerse, doğrulayıcı işlemi kabul etmeyi tercih eder. Yani ileride işlem ile ilgili sorgulandığında işlemin kabul edilmesi gerektiğini düşündüğü cevabını verecektir. Benzer şekilde, doğrulayıcıların yeterince büyük bir kısmı işlemin reddedilmesi gerektiğini düşündükleri yanıtı verirse, doğrulayıcı işlemi reddetmeyi tercih edecektir.
+Örneklenen doğrulayıcıların yeterince büyük bir bölümü \(_alpha_ $$α$$\) işlemin kabul edilmesi gerektiğini düşündüklerini söylerse, doğrulayıcı işlemi kabul etmeyi tercih eder. Yani ileride işlem ile ilgili sorgulandığında işlemin kabul edilmesi gerektiğini düşündüğü cevabını verecektir. Benzer şekilde, doğrulayıcıların yeterince büyük bir kısmı işlemin reddedilmesi gerektiğini düşündükleri yanıtını verirse, doğrulayıcı işlemi reddetmeyi tercih edecektir.
 
 The validator repeats this sampling process until _alpha_ of the validators queried reply the same way \(accept or reject\) for _beta_ $$β$$ consecutive rounds.
 
@@ -107,7 +107,7 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjkzODYxMzYsNzg3OTQ1NTQ1LDIwMD
+eyJoaXN0b3J5IjpbLTE0ODk5NzQ2NzcsNzg3OTQ1NTQ1LDIwMD
 c2MjE1NjIsNTIzNTEyNjIyLC0xNDc1NTU2Mzc2LC02MzY5NzI1
 NCwxNjE1MzM5MjIwLC0xNTM3MDEyNjEsMTQ3Mzk1Nzc0MCwxMD
 E3MDYwNjc3LDQ1MDU0ODY4MywtODg5NTY3MjJdfQ==
