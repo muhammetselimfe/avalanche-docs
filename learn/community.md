@@ -2,7 +2,7 @@
 
 ## Kaynaklar
 
-[**Avalanche Basın Kiti ve Marka Yönergeleri**](https://support.avalabs.org/en/articles/4132288-ava-labs-and-avalanche-press-kit-and-brand-assets): the official press kit and brand guidelines with logos and fonts
+[**Avalanche Basın Kiti ve Marka Yönergeleri**](https://support.avalabs.org/en/articles/4132288-ava-labs-and-avalanche-press-kit-and-brand-assets): resmi basın kiti ve logolar ve yazı tipleriyle marka yönergeleri
 
 ### İnternet Siteleri ve Sosyal Medya
 
@@ -187,6 +187,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMzk1OTA0LC0zNzYxODI2ODUsMTg5MT
+eyJoaXN0b3J5IjpbMzc5Njc0MTE3LC0zNzYxODI2ODUsMTg5MT
 c3NjExM119
 -->
