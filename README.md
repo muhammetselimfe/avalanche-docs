@@ -54,7 +54,7 @@ AVAX, Avalanche ağının yerel token'ıdır. İşlem ücretlerini ödemek, stak
 
 ![Consensus Comparison](.gitbook/assets/consensus-comparison.png)
 
-Avalanche ailesindeki protokoller, tekrarlanan alt örneklemeli oylama yoluyla çalışır. When a [validator](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) is determining whether a [transaction](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) should be accepted or rejected, it asks a small, random subset of validators whether they think the transaction should be accepted or rejected. If the queried validator thinks the transaction is invalid, has already rejected the transaction, or prefers a conflicting transaction, it replies that it thinks the transaction should be rejected. Otherwise, it replies that it thinks the transaction should be accepted.
+Avalanche ailesindeki protokoller, tekrarlanan alt örneklemeli oylama yoluyla çalışır. [Doğrulayıcı](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) is determining whether a [transaction](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) should be accepted or rejected, it asks a small, random subset of validators whether they think the transaction should be accepted or rejected. If the queried validator thinks the transaction is invalid, has already rejected the transaction, or prefers a conflicting transaction, it replies that it thinks the transaction should be rejected. Otherwise, it replies that it thinks the transaction should be accepted.
 
 If a sufficiently large portion \(_alpha_ $$α$$\) of the validators sampled reply that they think the transaction should be accepted, the validator prefers to accept the transaction. That is, when it is queried about the transaction in the future, it will reply that it thinks the transaction should be accepted. Similarly, the validator will prefer to reject the transaction if a sufficiently large portion of the validators replies that they think the transaction should be rejected.
 
@@ -107,8 +107,8 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4ODIyMjg0LDIwMDc2MjE1NjIsNTIzNT
-EyNjIyLC0xNDc1NTU2Mzc2LC02MzY5NzI1NCwxNjE1MzM5MjIw
-LC0xNTM3MDEyNjEsMTQ3Mzk1Nzc0MCwxMDE3MDYwNjc3LDQ1MD
-U0ODY4MywtODg5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbMTU1MTAxNjAzNywyMDA3NjIxNTYyLDUyMz
+UxMjYyMiwtMTQ3NTU1NjM3NiwtNjM2OTcyNTQsMTYxNTMzOTIy
+MCwtMTUzNzAxMjYxLDE0NzM5NTc3NDAsMTAxNzA2MDY3Nyw0NT
+A1NDg2ODMsLTg4OTU2NzIyXX0=
 -->
