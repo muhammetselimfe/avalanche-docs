@@ -56,7 +56,7 @@ AVAX, Avalanche ağının yerel token'ıdır. İşlem ücretlerini ödemek, stak
 
 Avalanche ailesindeki protokoller, tekrarlanan alt örneklemeli oylama yoluyla çalışır. [Doğrulayıcı](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) bir [işlemin](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) kabul edilip edilmeyeceğini belirlerken, işlemin kabul edilmesi veya reddedilmesi gerektiğini düşündükleri küçük, rastgele bir doğrulayıcı alt kümesine sorar. Sorgulanan doğrulayıcı işlemin geçersiz olduğunu düşünürse, işlemi zaten reddetmişse veya çakışan bir işlemi tercih ederse, işlemin reddedilmesi gerektiğini düşündüğü yanıtını verir. Aksi takdirde işlemin kabul edilmesi gerektiğini düşündüğünü söyler.
 
-If a sufficiently large portion \(_alpha_ $$α$$\) of the validators sampled reply that they think the transaction should be accepted, the validator prefers to accept the transaction. That is, when it is queried about the transaction in the future, it will reply that it thinks the transaction should be accepted. Similarly, the validator will prefer to reject the transaction if a sufficiently large portion of the validators replies that they think the transaction should be rejected.
+Örneklenen doğrulayıcıların yeterince büyük bir bölümü \(_alpha_ $$α$$\) of the validators sampled reply that they think the transaction should be accepted, the validator prefers to accept the transaction. That is, when it is queried about the transaction in the future, it will reply that it thinks the transaction should be accepted. Similarly, the validator will prefer to reject the transaction if a sufficiently large portion of the validators replies that they think the transaction should be rejected.
 
 The validator repeats this sampling process until _alpha_ of the validators queried reply the same way \(accept or reject\) for _beta_ $$β$$ consecutive rounds.
 
@@ -107,8 +107,8 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3OTQ1NTQ1LDIwMDc2MjE1NjIsNTIzNT
-EyNjIyLC0xNDc1NTU2Mzc2LC02MzY5NzI1NCwxNjE1MzM5MjIw
-LC0xNTM3MDEyNjEsMTQ3Mzk1Nzc0MCwxMDE3MDYwNjc3LDQ1MD
-U0ODY4MywtODg5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbLTEzNzUzNTgzNTAsNzg3OTQ1NTQ1LDIwMD
+c2MjE1NjIsNTIzNTEyNjIyLC0xNDc1NTU2Mzc2LC02MzY5NzI1
+NCwxNjE1MzM5MjIwLC0xNTM3MDEyNjEsMTQ3Mzk1Nzc0MCwxMD
+E3MDYwNjc3LDQ1MDU0ODY4MywtODg5NTY3MjJdfQ==
 -->
