@@ -58,7 +58,7 @@ Avalanche ailesindeki protokoller, tekrarlanan alt örneklemeli oylama yoluyla �
 
 Örneklenen doğrulayıcıların yeterince büyük bir bölümü \(_alpha_ $$α$$\) işlemin kabul edilmesi gerektiğini düşündüklerini söylerse, doğrulayıcı işlemi kabul etmeyi tercih eder. Yani ileride işlem ile ilgili sorgulandığında işlemin kabul edilmesi gerektiğini düşündüğü cevabını verecektir. Benzer şekilde, doğrulayıcıların yeterince büyük bir kısmı işlemin reddedilmesi gerektiğini düşündükleri yanıtını verirse, doğrulayıcı işlemi reddetmeyi tercih edecektir.
 
-The validator repeats this sampling process until _alpha_ of the validators queried reply the same way \(accept or reject\) for _beta_ $$β$$ consecutive rounds.
+Doğrulayıcı, sorgulanan doğrulayıcıların _alpha_ kadarı aynı şekilde yanıt verene kadar (kabul etme veya reddetme) _beta_ $$β$$ ardışık turlar kadar bu örnekleme sürecini tekrarlar of the validators queried reply the same way \(accept or reject\) for  consecutive rounds.
 
 In the common case when a transaction has no conflicts, finalization happens very quickly. When conflicts exist, honest validators quickly cluster around conflicting transactions, entering a positive feedback loop until all correct validators prefer that transaction. This leads to the acceptance of non-conflicting transactions and the rejection of conflicting transactions.
 
@@ -107,8 +107,9 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODk5NzQ2NzcsNzg3OTQ1NTQ1LDIwMD
-c2MjE1NjIsNTIzNTEyNjIyLC0xNDc1NTU2Mzc2LC02MzY5NzI1
-NCwxNjE1MzM5MjIwLC0xNTM3MDEyNjEsMTQ3Mzk1Nzc0MCwxMD
-E3MDYwNjc3LDQ1MDU0ODY4MywtODg5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbLTEzNjk4Mjc0NzYsLTE0ODk5NzQ2NzcsNz
+g3OTQ1NTQ1LDIwMDc2MjE1NjIsNTIzNTEyNjIyLC0xNDc1NTU2
+Mzc2LC02MzY5NzI1NCwxNjE1MzM5MjIwLC0xNTM3MDEyNjEsMT
+Q3Mzk1Nzc0MCwxMDE3MDYwNjc3LDQ1MDU0ODY4MywtODg5NTY3
+MjJdfQ==
 -->
