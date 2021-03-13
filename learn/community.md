@@ -10,9 +10,9 @@
 
 [**GitHub**](https://github.com/ava-labs): resmi Ava Labs GitHub tüm Avalanche açık repolarına ev sahipliği yapıyor.
 
-[**Discord**](https://chat.avax.network): geliştiricilerin ve meraklıların odaklanmış tartışmalarına katılmak için resmi Avalanche Discord
+[**Discord**](https://chat.avax.network): geliştiricilerin ve meraklıların odaklanmış tartışmalara girmesi için resmi Avalanche Discord
 
-[**Twitter**](https://twitter.com/avalancheavax): the official Avalanche Twitter for all major news and updates regarding Avalanche and its ecosystem.
+[**Twitter**](https://twitter.com/avalancheavax): Avalanche ve ekosistemiyle ilgili tüm önemli haberler ve güncellemeler için resmi Avalanche Twitter'ı.
 
 [**Forum**](https://forum.avax.network): the official Avalanche Forum for technical discussions related to Avalanche and its community
 
@@ -187,5 +187,5 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDExMjcwMjQsMTg5MTc3NjExM119
+eyJoaXN0b3J5IjpbLTE4NjM5NzgxODAsMTg5MTc3NjExM119
 -->
