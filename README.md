@@ -60,7 +60,7 @@ Avalanche ailesindeki protokoller, tekrarlanan alt örneklemeli oylama yoluyla �
 
 Doğrulayıcı, sorgulanan doğrulayıcıların _alfa_ kadarı aynı şekilde yanıt verene kadar (kabul etme veya reddetme) _beta_ $$β$$ ardışık turlar kadar bu örnekleme sürecini tekrarlar.
 
-In the common case when a transaction has no conflicts, finalization happens very quickly. When conflicts exist, honest validators quickly cluster around conflicting transactions, entering a positive feedback loop until all correct validators prefer that transaction. This leads to the acceptance of non-conflicting transactions and the rejection of conflicting transactions.
+Bir işlemin çakışmadığı sıradan durumda, finalization happens very quickly. When conflicts exist, honest validators quickly cluster around conflicting transactions, entering a positive feedback loop until all correct validators prefer that transaction. This leads to the acceptance of non-conflicting transactions and the rejection of conflicting transactions.
 
 ![How Avalanche Consensus Works](.gitbook/assets/howavalancheconsensusworks.png)
 
@@ -107,9 +107,9 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDMyNDkxNywtMTQ4OTk3NDY3Nyw3OD
-c5NDU1NDUsMjAwNzYyMTU2Miw1MjM1MTI2MjIsLTE0NzU1NTYz
-NzYsLTYzNjk3MjU0LDE2MTUzMzkyMjAsLTE1MzcwMTI2MSwxND
-czOTU3NzQwLDEwMTcwNjA2NzcsNDUwNTQ4NjgzLC04ODk1Njcy
-Ml19
+eyJoaXN0b3J5IjpbMzk5MjkzMTUsLTE0ODk5NzQ2NzcsNzg3OT
+Q1NTQ1LDIwMDc2MjE1NjIsNTIzNTEyNjIyLC0xNDc1NTU2Mzc2
+LC02MzY5NzI1NCwxNjE1MzM5MjIwLC0xNTM3MDEyNjEsMTQ3Mz
+k1Nzc0MCwxMDE3MDYwNjc3LDQ1MDU0ODY4MywtODg5NTY3MjJd
+fQ==
 -->
