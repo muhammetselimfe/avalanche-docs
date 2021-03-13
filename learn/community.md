@@ -4,11 +4,11 @@
 
 [**Avalanche Basın Kiti ve Marka Yönergeleri**](https://support.avalabs.org/en/articles/4132288-ava-labs-and-avalanche-press-kit-and-brand-assets): the official press kit and brand guidelines with logos and fonts
 
-### Websites and Socials
+### İnternet Siteleri ve Sosyal Medya
 
-[**Website**](https://avax.network): the official Ava Labs and Avalanche website.
+[**İnternet Sitesi**](https://avax.network): Resmi Ava Labs ve Avalanche internet sitesi.
 
-[**GitHub**](https://github.com/ava-labs): the official Ava Labs GitHub hosting all Avalanche public repos.
+[**GitHub**](https://github.com/ava-labs): ResmiAva Labs GitHub hosting all Avalanche public repos.
 
 [**Discord**](https://chat.avax.network): the official Avalanche Discord for developers and enthusiasts to engage in focused discussions.
 
@@ -187,5 +187,5 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0NTc3NTk5XX0=
+eyJoaXN0b3J5IjpbLTIwNzU1ODA5MF19
 -->
