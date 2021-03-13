@@ -64,7 +64,7 @@ Doğrulayıcı, sorgulanan doğrulayıcıların _alfa_ kadarı aynı şekilde ya
 
 ![Avalanche Konsensüs Nasıl Çalışır](.gitbook/assets/howavalancheconsensusworks.png)
 
-It is guaranteed \(with high probability based on system parameters\) that if any honest validator accepts or rejects a transaction, all honest validators will accept or reject that transaction.
+Herhangi bir dürüst doğrulayıcı bir işlemi kabul ederse veya reddederse, tüm dürüst doğrulayıcıların bu işlemi kabul edeceği veya reddedeceği garanti edilir \(sistem parametrelerine bağlı olarak yüksek olasılıkla\).
 
 Learn more technical components of the Avalanche consensus protocol by reading the [whitepaper](https://arxiv.org/pdf/1906.08936.pdf).
 
@@ -107,9 +107,9 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODcwNjE4NSwtMTQ4OTk3NDY3Nyw3OD
-c5NDU1NDUsMjAwNzYyMTU2Miw1MjM1MTI2MjIsLTE0NzU1NTYz
-NzYsLTYzNjk3MjU0LDE2MTUzMzkyMjAsLTE1MzcwMTI2MSwxND
-czOTU3NzQwLDEwMTcwNjA2NzcsNDUwNTQ4NjgzLC04ODk1Njcy
-Ml19
+eyJoaXN0b3J5IjpbMTMwNzA1MzQ5NSwtMjU4NzA2MTg1LC0xND
+g5OTc0Njc3LDc4Nzk0NTU0NSwyMDA3NjIxNTYyLDUyMzUxMjYy
+MiwtMTQ3NTU1NjM3NiwtNjM2OTcyNTQsMTYxNTMzOTIyMCwtMT
+UzNzAxMjYxLDE0NzM5NTc3NDAsMTAxNzA2MDY3Nyw0NTA1NDg2
+ODMsLTg4OTU2NzIyXX0=
 -->
