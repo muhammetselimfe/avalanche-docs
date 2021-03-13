@@ -62,7 +62,7 @@ Doğrulayıcı, sorgulanan doğrulayıcıların _alfa_ kadarı aynı şekilde ya
 
 İşlemin çakışmadığı sıradan bir durumda, işlem sonlandırma çok hızlı gerçekleşir. Çakışmalar olduğunda dürüst doğrulayıcılar, çakışan işlemlerin etrafında hızla kümelenir ve tüm doğru doğrulayıcılar bu işlemi tercih edene kadar olumlu bir geri bildirim döngüsüne girer. Bu, çakışmayan işlemlerin kabul edilmesine ve çakışan işlemlerin reddedilmesine yol açar.
 
-![How Avalanche Consensus Works](.gitbook/assets/howavalancheconsensusworks.png)
+![Avalanche Konsensüs Nasıl Çalışır](.gitbook/assets/howavalancheconsensusworks.png)
 
 It is guaranteed \(with high probability based on system parameters\) that if any honest validator accepts or rejects a transaction, all honest validators will accept or reject that transaction.
 
@@ -107,9 +107,9 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5MzgyNjI2LC0xNDg5OTc0Njc3LDc4Nz
-k0NTU0NSwyMDA3NjIxNTYyLDUyMzUxMjYyMiwtMTQ3NTU1NjM3
-NiwtNjM2OTcyNTQsMTYxNTMzOTIyMCwtMTUzNzAxMjYxLDE0Nz
-M5NTc3NDAsMTAxNzA2MDY3Nyw0NTA1NDg2ODMsLTg4OTU2NzIy
-XX0=
+eyJoaXN0b3J5IjpbLTI1ODcwNjE4NSwtMTQ4OTk3NDY3Nyw3OD
+c5NDU1NDUsMjAwNzYyMTU2Miw1MjM1MTI2MjIsLTE0NzU1NTYz
+NzYsLTYzNjk3MjU0LDE2MTUzMzkyMjAsLTE1MzcwMTI2MSwxND
+czOTU3NzQwLDEwMTcwNjA2NzcsNDUwNTQ4NjgzLC04ODk1Njcy
+Ml19
 -->
