@@ -16,9 +16,9 @@
 
 [**Forum**](https://forum.avax.network): Avalanche ve topluluğu ile ilgili teknik tartışmalar için resmi Avalanche Forumu.
 
-[**Avalanche Hub**](https://community.avax.network/accounts/login/?next=/): a community growth platform building an inclusive environment for all aspects of Avalanche. From expansion efforts to open-source development, members directly contribute to vital research, education, and engineering initiatives to earn AVAX tokens.
+[**Avalanche Hub**](https://community.avax.network/accounts/login/?next=/): Avalanche'ın tüm yönleri için kapsayıcı bir ortam oluşturan bir topluluk büyüme platformu. Büyüme çabalarından açık kaynak geliştirmeye kadar üyeler, AVAX token'ları kazanmak için araştırma, eğitim ve mühendislik girişimlerine doğrudan katkıda bulunur.
 
-[**This Week in Avalanche**](https://weavax.substack.com/): an independent weekly newsletter round-up of Avalanche news, events, and developments produced by a community member.
+[**This Week in Avalanche**](https://weavax.substack.com/): bir topluluk üyesi tarafından üretilen Avalanche haberleri, etkinlikleri ve gelişmelerinden oluşan bağımsız bir haftalık haber bülteni.
 
 ### Ecosystem Partners
 
@@ -187,5 +187,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjE4MjY4NSwxODkxNzc2MTEzXX0=
+eyJoaXN0b3J5IjpbNjYzMzk1OTA0LC0zNzYxODI2ODUsMTg5MT
+c3NjExM119
 -->
