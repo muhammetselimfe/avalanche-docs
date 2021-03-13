@@ -66,7 +66,7 @@ Doğrulayıcı, sorgulanan doğrulayıcıların _alfa_ kadarı aynı şekilde ya
 
 Herhangi bir dürüst doğrulayıcı bir işlemi kabul ederse veya reddederse, tüm dürüst doğrulayıcıların bu işlemi kabul edeceği veya reddedeceği garanti edilir \(sistem parametrelerine bağlı olarak yüksek olasılıkla\).
 
-Learn more technical components of the Avalanche consensus protocol by reading the [whitepaper](https://arxiv.org/pdf/1906.08936.pdf).
+[whitepaper](https://arxiv.org/pdf/1906.08936.pdf)'ı okuyarak Avalanche konsensüs protokolünün daha teknik bileşenlerini öğrenin.
 
 ## Snowman Konsensüs Protokolü
 
@@ -107,9 +107,9 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzA1MzQ5NSwtMjU4NzA2MTg1LC0xND
-g5OTc0Njc3LDc4Nzk0NTU0NSwyMDA3NjIxNTYyLDUyMzUxMjYy
-MiwtMTQ3NTU1NjM3NiwtNjM2OTcyNTQsMTYxNTMzOTIyMCwtMT
-UzNzAxMjYxLDE0NzM5NTc3NDAsMTAxNzA2MDY3Nyw0NTA1NDg2
-ODMsLTg4OTU2NzIyXX0=
+eyJoaXN0b3J5IjpbMTY2MjM5Nzk3LC0yNTg3MDYxODUsLTE0OD
+k5NzQ2NzcsNzg3OTQ1NTQ1LDIwMDc2MjE1NjIsNTIzNTEyNjIy
+LC0xNDc1NTU2Mzc2LC02MzY5NzI1NCwxNjE1MzM5MjIwLC0xNT
+M3MDEyNjEsMTQ3Mzk1Nzc0MCwxMDE3MDYwNjc3LDQ1MDU0ODY4
+MywtODg5NTY3MjJdfQ==
 -->
