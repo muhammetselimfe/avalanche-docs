@@ -80,7 +80,7 @@ Cornell bilgisayar bilimcilerinden oluşan bir ekip tarafından geliştirilen ye
 
 ### Ölçeklenebilirlik
 
-Saniyede 4.500 işlem yapabilme kapasitesi–an order of magnitude greater than existing blockchains.
+Saniyede 4.500 işlem yapabilme kapasitesi–Mevcut blokzincirlerinden daha iyi bir büyüklük sırası.
 
 ### Güvenlik
 
@@ -107,9 +107,9 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI4ODc1OTIsMTY2MjM5Nzk3LC0yNT
-g3MDYxODUsLTE0ODk5NzQ2NzcsNzg3OTQ1NTQ1LDIwMDc2MjE1
-NjIsNTIzNTEyNjIyLC0xNDc1NTU2Mzc2LC02MzY5NzI1NCwxNj
-E1MzM5MjIwLC0xNTM3MDEyNjEsMTQ3Mzk1Nzc0MCwxMDE3MDYw
-Njc3LDQ1MDU0ODY4MywtODg5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbMTgzMTI3OTg0NSwxNjYyMzk3OTcsLTI1OD
+cwNjE4NSwtMTQ4OTk3NDY3Nyw3ODc5NDU1NDUsMjAwNzYyMTU2
+Miw1MjM1MTI2MjIsLTE0NzU1NTYzNzYsLTYzNjk3MjU0LDE2MT
+UzMzkyMjAsLTE1MzcwMTI2MSwxNDczOTU3NzQwLDEwMTcwNjA2
+NzcsNDUwNTQ4NjgzLC04ODk1NjcyMl19
 -->
