@@ -1,7 +1,7 @@
 ---
 description: >-
   Avalanche üzerinde limitlere takılmadan uygulamalar geliştirin.  Avalanche üzerinde çalışan geliştiriciler 
-  kolaylıkla güçlü, emniyetli, ve güvenli uygulamalar oluşturabilir.
+  kolaylıkla güçlü ve güvenli uygulamalar oluşturabilir.
 ---
 
 # Geliştirici Dokümantasyonu
@@ -107,9 +107,9 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTI3OTg0NSwxNjYyMzk3OTcsLTI1OD
-cwNjE4NSwtMTQ4OTk3NDY3Nyw3ODc5NDU1NDUsMjAwNzYyMTU2
-Miw1MjM1MTI2MjIsLTE0NzU1NTYzNzYsLTYzNjk3MjU0LDE2MT
-UzMzkyMjAsLTE1MzcwMTI2MSwxNDczOTU3NzQwLDEwMTcwNjA2
-NzcsNDUwNTQ4NjgzLC04ODk1NjcyMl19
+eyJoaXN0b3J5IjpbMTMyODE2MTA1OSwxODMxMjc5ODQ1LDE2Nj
+IzOTc5NywtMjU4NzA2MTg1LC0xNDg5OTc0Njc3LDc4Nzk0NTU0
+NSwyMDA3NjIxNTYyLDUyMzUxMjYyMiwtMTQ3NTU1NjM3NiwtNj
+M2OTcyNTQsMTYxNTMzOTIyMCwtMTUzNzAxMjYxLDE0NzM5NTc3
+NDAsMTAxNzA2MDY3Nyw0NTA1NDg2ODMsLTg4OTU2NzIyXX0=
 -->
