@@ -70,7 +70,7 @@ Herhangi bir dürüst doğrulayıcı bir işlemi kabul ederse veya reddederse, t
 
 ## Snowman Konsensüs Protokolü
 
-Snowman is a chain-optimized consensus protocol–high-throughput, totally-ordered, and great for smart contracts. Snowman is powered by the [Avalanche consensus protocol](./#avalanche-consensus-protocol). Both [P-Chain](learn/platform-overview/#platform-chain-p-chain) and [C-Chain](learn/platform-overview/#contract-chain-c-chain) implement the Snowman consensus protocol.
+Snowman, zincir için optimize edilmiş bir fikir birliği protokolüdür; yüksek verimli, tamamen sıralı işlemler ve akıllı sözleşmeler için harikadır. Snowman is powered by the [Avalanche consensus protocol](./#avalanche-consensus-protocol). Both [P-Chain](learn/platform-overview/#platform-chain-p-chain) and [C-Chain](learn/platform-overview/#contract-chain-c-chain) implement the Snowman consensus protocol.
 
 ## Ana Özellikler
 
@@ -107,9 +107,9 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjM5Nzk3LC0yNTg3MDYxODUsLTE0OD
-k5NzQ2NzcsNzg3OTQ1NTQ1LDIwMDc2MjE1NjIsNTIzNTEyNjIy
-LC0xNDc1NTU2Mzc2LC02MzY5NzI1NCwxNjE1MzM5MjIwLC0xNT
-M3MDEyNjEsMTQ3Mzk1Nzc0MCwxMDE3MDYwNjc3LDQ1MDU0ODY4
-MywtODg5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbLTEwMzY0Mjc2NzMsMTY2MjM5Nzk3LC0yNT
+g3MDYxODUsLTE0ODk5NzQ2NzcsNzg3OTQ1NTQ1LDIwMDc2MjE1
+NjIsNTIzNTEyNjIyLC0xNDc1NTU2Mzc2LC02MzY5NzI1NCwxNj
+E1MzM5MjIwLC0xNTM3MDEyNjEsMTQ3Mzk1Nzc0MCwxMDE3MDYw
+Njc3LDQ1MDU0ODY4MywtODg5NTY3MjJdfQ==
 -->
