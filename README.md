@@ -56,9 +56,9 @@ AVAX, Avalanche ağının yerel token'ıdır. İşlem ücretlerini ödemek, stak
 
 Avalanche ailesindeki protokoller, tekrarlanan alt örneklemeli oylama yoluyla çalışır. [Doğrulayıcı](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) bir [işlemin](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) kabul edilip edilmeyeceğini belirlerken, işlemin kabul edilmesi veya reddedilmesi gerektiğini düşündükleri küçük, rastgele bir doğrulayıcı alt kümesine sorar. Sorgulanan doğrulayıcı işlemin geçersiz olduğunu düşünürse, işlemi zaten reddetmişse veya çakışan bir işlemi tercih ederse, işlemin reddedilmesi gerektiğini düşündüğü yanıtını verir. Aksi takdirde işlemin kabul edilmesi gerektiğini düşündüğünü söyler.
 
-Örneklenen doğrulayıcıların yeterince büyük bir bölümü \(_alpha_ $$α$$\) işlemin kabul edilmesi gerektiğini düşündüklerini söylerse, doğrulayıcı işlemi kabul etmeyi tercih eder. Yani ileride işlem ile ilgili sorgulandığında işlemin kabul edilmesi gerektiğini düşündüğü cevabını verecektir. Benzer şekilde, doğrulayıcıların yeterince büyük bir kısmı işlemin reddedilmesi gerektiğini düşündükleri yanıtını verirse, doğrulayıcı işlemi reddetmeyi tercih edecektir.
+Örneklenen doğrulayıcıların yeterince büyük bir bölümü \(_alfa_ $$α$$\) işlemin kabul edilmesi gerektiğini düşündüklerini söylerse, doğrulayıcı işlemi kabul etmeyi tercih eder. Yani ileride işlem ile ilgili sorgulandığında işlemin kabul edilmesi gerektiğini düşündüğü cevabını verecektir. Benzer şekilde, doğrulayıcıların yeterince büyük bir kısmı işlemin reddedilmesi gerektiğini düşündükleri yanıtını verirse, doğrulayıcı işlemi reddetmeyi tercih edecektir.
 
-Doğrulayıcı, sorgulanan doğrulayıcıların _alpha_ kadarı aynı şekilde yanıt verene kadar (kabul etme veya reddetme) _beta_ $$β$$ ardışık turlar kadar bu örnekleme sürecini tekrarlar of the validators queried reply the same way \(accept or reject\) for  consecutive rounds.
+Doğrulayıcı, sorgulanan doğrulayıcıların _alfa_ kadarı aynı şekilde yanıt verene kadar (kabul etme veya reddetme) _beta_ $$β$$ ardışık turlar kadar bu örnekleme sürecini tekrarlar.
 
 In the common case when a transaction has no conflicts, finalization happens very quickly. When conflicts exist, honest validators quickly cluster around conflicting transactions, entering a positive feedback loop until all correct validators prefer that transaction. This leads to the acceptance of non-conflicting transactions and the rejection of conflicting transactions.
 
@@ -107,9 +107,9 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjk4Mjc0NzYsLTE0ODk5NzQ2NzcsNz
-g3OTQ1NTQ1LDIwMDc2MjE1NjIsNTIzNTEyNjIyLC0xNDc1NTU2
-Mzc2LC02MzY5NzI1NCwxNjE1MzM5MjIwLC0xNTM3MDEyNjEsMT
-Q3Mzk1Nzc0MCwxMDE3MDYwNjc3LDQ1MDU0ODY4MywtODg5NTY3
-MjJdfQ==
+eyJoaXN0b3J5IjpbLTU0MDMyNDkxNywtMTQ4OTk3NDY3Nyw3OD
+c5NDU1NDUsMjAwNzYyMTU2Miw1MjM1MTI2MjIsLTE0NzU1NTYz
+NzYsLTYzNjk3MjU0LDE2MTUzMzkyMjAsLTE1MzcwMTI2MSwxND
+czOTU3NzQwLDEwMTcwNjA2NzcsNDUwNTQ4NjgzLC04ODk1Njcy
+Ml19
 -->
