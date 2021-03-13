@@ -6,9 +6,9 @@
 
 ### İnternet Siteleri ve Sosyal Medya
 
-[**İnternet Sitesi**](https://avax.network): Resmi Ava Labs ve Avalanche internet sitesi.
+[**İnternet Sitesi**](https://avax.network): resmi Ava Labs ve Avalanche internet sitesi.
 
-[**GitHub**](https://github.com/ava-labs): Resmi Ava Labs GitHub tüm Avalanche açık repolarına ev sahipliği yapıyor.
+[**GitHub**](https://github.com/ava-labs): resmi Ava Labs GitHub tüm Avalanche açık repolarına ev sahipliği yapıyor.
 
 [**Discord**](https://chat.avax.network): the official Avalanche Discord for developers and enthusiasts to engage in focused discussions.
 
@@ -187,5 +187,5 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzgyNTY0OV19
+eyJoaXN0b3J5IjpbMTg5MTc3NjExM119
 -->
