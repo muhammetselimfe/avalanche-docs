@@ -48,7 +48,7 @@ Avalanche ve diğer merkeziyetsiz ağlar arasındaki temel fark konsensüs proko
 
 ## AVAX
 
-AVAX, Avalanche ağının yerel token'ıdır. ücretlerini ödemek, staking ile platformun güvenliğini sağlamak ve Avalanche üzerinde oluşturulan birden çok alt ağ arasında temel bir hesap birimi olarak kullanmak için kullanılan arzı sabit, sınırlı bir varlıktır. `1 nAVAX'ın karşılığı`` 0.000000001 AVAX'tır`.
+AVAX, Avalanche ağının yerel token'ıdır. İşlem ücretlerini ödemek, staking ile platformun güvenliğini sağlamak ve Avalanche üzerinde oluşturulan birden çok alt ağ arasında temel bir hesap birimi olarak kullanmak için kullanılan arzı sabit, sınırlı bir varlıktır. `1 nAVAX'ın karşılığı``  0.000000001 AVAX'tır`.
 
 ## Avalanche Konsensüs Protokolü
 
@@ -107,8 +107,8 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc5OTI5MzksNTIzNTEyNjIyLC0xND
-c1NTU2Mzc2LC02MzY5NzI1NCwxNjE1MzM5MjIwLC0xNTM3MDEy
-NjEsMTQ3Mzk1Nzc0MCwxMDE3MDYwNjc3LDQ1MDU0ODY4MywtOD
-g5NTY3MjJdfQ==
+eyJoaXN0b3J5IjpbMTM2MTQwNjIzMCw1MjM1MTI2MjIsLTE0Nz
+U1NTYzNzYsLTYzNjk3MjU0LDE2MTUzMzkyMjAsLTE1MzcwMTI2
+MSwxNDczOTU3NzQwLDEwMTcwNjA2NzcsNDUwNTQ4NjgzLC04OD
+k1NjcyMl19
 -->
