@@ -70,13 +70,13 @@ Herhangi bir dürüst doğrulayıcı bir işlemi kabul ederse veya reddederse, t
 
 ## Snowman Konsensüs Protokolü
 
-Snowman, zincir için optimize edilmiş bir fikir birliği protokolüdür; yüksek verimli, tamamen sıralı işlemler ve akıllı sözleşmeler için harikadır. Snowman, [Avalanche konsensüs protokolü ](./#avalanche-consensus-protocol) tarafından desteklenmektedir. Both [P-Chain](learn/platform-overview/#platform-chain-p-chain) and [C-Chain](learn/platform-overview/#contract-chain-c-chain) implement the Snowman consensus protocol.
+Snowman, zincir için optimize edilmiş bir fikir birliği protokolüdür; yüksek verimli, tamamen sıralı işlemler ve akıllı sözleşmeler için harikadır. Snowman, [Avalanche konsensüs protokolü ](./#avalanche-consensus-protocol) tarafından desteklenmektedir. Hem [P-Chain](learn/platform-overview/#platform-chain-p-chain) hem de [C-Chain](learn/platform-overview/#contract-chain-c-chain) Snowman konsensüs protokolününü kullanır.
 
 ## Ana Özellikler
 
 ### Hız
 
-Cornell bilgisayar bilimcilerinden oluşan bir ekip tarafından geliştirilen yeni bir fikir birliği protokolü kullanır ve işlemleri 1 saniyenin altında kalıcı olarak onaylayabilir.
+Cornell bilgisayar bilimcilerinden oluşan bir ekip tarafından geliştirilen yeni bir konsensüs protokolü kullanır ve işlemleri 1 saniyenin altında kalıcı olarak onaylayabilir.
 
 ### Ölçeklenebilirlik
 
@@ -107,7 +107,7 @@ Kendi genel veya özel blok zincirlerinizi oluşturun.
 Karmaşık, özel kural kümeleriyle dijital akıllı varlıkları kolayca oluşturmak ve ticaretini yapmak için çok uygundur.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzEwMjk5MiwxNjYyMzk3OTcsLTI1OD
+eyJoaXN0b3J5IjpbMTgwODY5NTczOSwxNjYyMzk3OTcsLTI1OD
 cwNjE4NSwtMTQ4OTk3NDY3Nyw3ODc5NDU1NDUsMjAwNzYyMTU2
 Miw1MjM1MTI2MjIsLTE0NzU1NTYzNzYsLTYzNjk3MjU0LDE2MT
 UzMzkyMjAsLTE1MzcwMTI2MSwxNDczOTU3NzQwLDEwMTcwNjA2
