@@ -112,7 +112,7 @@ function Introduction(): React.ReactElement {
     <div className="grid grid-cols-1 border-r md:grid-cols-2">
       <div className="flex flex-col border-l border-t px-6 py-12 md:py-16">
         <div className={cn(badgeVariants(), 'bg-red-500', 'text-white')}>1</div>
-        <h3 className="text-xl font-bold">Yapılandır.</h3>
+        <h3 className="text-xl font-bold">Yapılandırın.</h3>
         <p className="mb-8 text-fd-muted-foreground">
           Blok zincirinizi Avalanche CLI kullanarak yapılandırın.
         </p>
@@ -148,9 +148,9 @@ function Introduction(): React.ReactElement {
       </div>
       <div className="flex flex-col border-l border-t px-6 py-12 md:py-16">
         <div className={cn(badgeVariants(), 'bg-red-500', 'text-white')}>2</div>
-        <h3 className="text-xl font-bold">Yayına Al.</h3>
+        <h3 className="text-xl font-bold">Dağıtım.</h3>
         <p className="mb-8 text-fd-muted-foreground">
-          Tek bir komutla etkileşimli bir L1 çalıştırın.
+          Tek bir komutla etkileşimli bir katman 1 dağıtın.
         </p>
         <DeployBlockchainAnimation />
       </div>
@@ -186,7 +186,7 @@ function Features(): React.ReactElement {
             <IndentDecrease />
             <h3 className="font-semibold">HyperSDK</h3>
             <p className="text-sm text-fd-muted-foreground">
-              Blok zincirleri oluşturmak için yüksek performanslı, özelleştirilebilir bir çerçeve.
+              Blok zincirleri oluşturmak için yüksek performanslı, özelleştirilebilir bir framework.
             </p>
         </Link>
         </div>
@@ -195,43 +195,43 @@ function Features(): React.ReactElement {
         icon={Webhook}
         subheading="API'ler"
         heading="Avalanche için her şeyin API Referansları."
-        description="Avalanche Ağı için iyi belgelenmiş API'ler."
+        description="Avalanche Ağı için iyi dokümante edilmiş API'ler."
       >
         <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
           <Link href="/api-reference/c-chain/api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">C-Chain API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API referansı için Sözleşme Zinciri.
+              Sözleşme Zinciri için API referansı.
             </p>
           </Link>
           <Link href="/api-reference/p-chain/api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">P-Chain API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API referansı için Platform Zinciri.
+              Platform Zinciri için API referansı.
             </p>
           </Link>
           <Link href="/api-reference/x-chain/api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">X-Chain API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API referansı için Borsa Zinciri.
+              Borsa Zinciri için API referansı.
             </p>
           </Link>
           <Link href="/api-reference/admin-api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">AvalancheGo API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API referansı için AvalancheGo.
+              AvalancheGo için API referansı.
             </p>
           </Link>
           <Link href="/api-reference/subnet-evm-api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">Subnet-EVM API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API referansı için Subnet-EVM.
+              Subnet-EVM için API referansı.
             </p>
           </Link>
           <Link href="https://developers.avacloud.io/introduction" target="_blank" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">AvaCloud API'leri</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API referansı için AvaCloud.
+              AvaCloud için API referansı.
             </p>
           </Link>
         </div>
