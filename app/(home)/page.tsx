@@ -150,7 +150,7 @@ function Introduction(): React.ReactElement {
         <div className={cn(badgeVariants(), 'bg-red-500', 'text-white')}>2</div>
         <h3 className="text-xl font-bold">Yayınla.</h3>
         <p className="mb-8 text-fd-muted-foreground">
-          Tek bir komutla etkileşimli bir katman 1 Yayınlayın.
+          Tek bir komutla etkileşimli bir L1 Yayınlayın.
         </p>
         <DeployBlockchainAnimation />
       </div>
