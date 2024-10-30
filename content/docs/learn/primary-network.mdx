@@ -1,44 +1,44 @@
 ---
-title: Primary Network
-description: Learn about the Avalanche Primary Network and its three blockchains.
+title: Ana Ağ
+description: Avalanche Ana Ağı ve üç blok zinciri hakkında bilgi edinin.
 ---
 
-Avalanche is a heterogeneous network of blockchains. As opposed to homogeneous networks, where all applications reside in the same chain, heterogeneous networks allow separate chains to be created for different applications.
+Avalanche, blok zincirlerinden oluşan heterojen bir ağdır. Tüm uygulamaların aynı zincirde bulunduğu homojen ağların aksine, heterojen ağlar farklı uygulamalar için ayrı zincirlerin oluşturulmasına olanak tanır.
 
-The Primary Network is a special [Avalanche L1](/learn/avalanche-l1s) that runs three blockchains:
+Ana Ağ, üç blok zinciri çalıştıran özel bir [Avalanche L1](/learn/avalanche-l1s) dir:
 
 - The Contract Chain [(C-Chain)](/learn/primary-network#c-chain)
 - The Platform Chain [(P-Chain)](/learn/primary-network#p-chain)
 - The Exchange Chain [(X-Chain)](/learn/primary-network#x-chain)
 
-<Callout title="Note">
-[Avalanche Mainnet](/learn/networks/mainnet) is comprised of the Primary Network and all deployed Avalanche L1s.
+<Callout title="Not">
+[Avalanche Ana Ağı](/learn/networks/mainnet), Ana Ağ ve tüm dağıtılmış Avalanche L1'lerden oluşmaktadır.
 </Callout>
 
-A node can become a validator for the Primary Network by staking at least **2,000 AVAX**.
+Bir düğüm, en az **2,000 AVAX** stake ederek Ana Ağ için bir doğrulayıcı olabilir.
 
-![Primary network](/images/primary-network1.png)
+![Ana ağ](/images/primary-network1.png)
 
-## The Chains
+## Zincirler
 
-All validators of the Primary Network are required to validate and secure the following:
+Ana Ağ'ın tüm doğrulayıcıları, aşağıdakileri doğrulamak ve güvence altına almakla yükümlüdür:
 
 ### C-Chain
 
-The **C-Chain** is an implementation of the Ethereum Virtual Machine (EVM). The [C-Chain's API](/api-reference/c-chain/api) supports Geth's API and supports the deployment and execution of smart contracts written in Solidity.
+**C-Chain**, Ethereum Sanal Makinesi (EVM) uygulamasıdır. [C-Chain API'si](/api-reference/c-chain/api), Geth'in API'sini destekler ve Solidity dilinde yazılmış akıllı sözleşmelerin dağıtımını ve yürütülmesini destekler.
 
-The C-Chain is an instance of the [Coreth](https://github.com/ava-labs/coreth) Virtual Machine.
+C-Chain, [Coreth](https://github.com/ava-labs/coreth) Sanal Makinesi'nin bir örneğidir.
 
 ### P-Chain
 
-The **P-Chain** is responsible for all validator and Avalanche L1-level operations. The [P-Chain API](/api-reference/p-chain/api) supports the creation of new blockchains and Avalanche L1s, the addition of validators to Avalanche L1s, staking operations, and other platform-level operations.
+**P-Chain**, tüm doğrulayıcı ve Avalanche L1 düzeyindeki işlemlerden sorumludur. [P-Chain API'si](/api-reference/p-chain/api), yeni blok zincirleri ve Avalanche L1'lerin oluşturulmasını, Avalanche L1'lere doğrulayıcı eklenmesini, stake işlemlerini ve diğer platform düzeyindeki işlemleri destekler.
 
-The P-Chain is an instance of the Platform Virtual Machine.
+P-Chain, Platform Sanal Makinesi'nin bir örneğidir.
 
 ### X-Chain
 
-The **X-Chain** is responsible for operations on digital smart assets known as **Avalanche Native Tokens**. A smart asset is a representation of a real-world resource (for example, equity, or a bond) with sets of rules that govern its behavior, like "can't be traded until tomorrow." The [X-Chain API](/api-reference/x-chain/api) supports the creation and trade of Avalanche Native Tokens.
+**X-Chain**, **Avalanche Yerel Tokenleri** olarak bilinen dijital akıllı varlıklar üzerindeki işlemlerden sorumludur. Bir akıllı varlık, "yarın ticareti yapılamaz" gibi davranışını yöneten kurallar setine sahip gerçek dünya kaynağının (örneğin, hisse senedi veya tahvil) bir temsilidir. [X-Chain API'si](/api-reference/x-chain/api), Avalanche Yerel Tokenlerinin oluşturulmasını ve ticaretini destekler.
 
-One asset traded on the X-Chain is AVAX. When you issue a transaction to a blockchain on Avalanche, you pay a fee denominated in AVAX.
+X-Chain'de işlem gören bir varlık da AVAX'tır. Avalanche'daki bir blok zincirine işlem gönderdiğinizde, AVAX cinsinden bir işlem ücreti ödersiniz.
 
-The X-Chain is an instance of the Avalanche Virtual Machine (AVM).
+X-Chain, Avalanche Sanal Makinesi (AVM) uygulamasının bir örneğidir.

@@ -1,74 +1,74 @@
 ---
-title: Avalanche L1s
-description: Explore the multi-chain architecture of Avalanche ecosystem.
+title: Avalanche L1'ler
+description: Avalanche ekosisteminin çok zincirli mimarisini keşfedin.
 ---
 
-an Avalanche L1 is a sovereign network which defines its own rules regarding its membership and token economics. It is composed of a dynamic subset of Avalanche validators working together to achieve consensus on the state of one or more blockchains. Each blockchain is validated by exactly one Avalanche L1, while an Avalanche L1 can validate many blockchains.
+Bir Avalanche L1, kendi üyelik ve token ekonomisi ile ilgili kurallarını tanımlayan bağımsız bir ağdır. Bir veya daha fazla blok zincirinin durumunda uzlaşma sağlamak için birlikte çalışan dinamik bir Avalanche doğrulayıcı alt kümesinden oluşur. Her blok zinciri tam olarak bir Avalanche L1 tarafından doğrulanırken, bir Avalanche L1 birden fazla blok zincirini doğrulayabilir.
 
-Avalanche's [Primary Network](/learn/primary-network) is a special Avalanche L1 running three blockchains:
+Avalanche'ın [Ana Ağı](/learn/primary-network) üç blok zinciri çalıştıran özel bir Avalanche L1'dir:
 
-- The Platform Chain [(P-Chain)](/learn/primary-network#p-chain)
-- The Contract Chain [(C-Chain)](/learn/primary-network#c-chain)
-- The Exchange Chain [(X-Chain)](/learn/primary-network#x-chain)
+- Platform Zinciri [(P-Zinciri)](/learn/primary-network#p-chain)
+- Contract Zinciri [(C-Zinciri)](/learn/primary-network#c-chain)
+- Exchange Zinciri [(X-Zinciri)](/learn/primary-network#x-chain)
 
 ![image](/images/subnet1.png)
 
-(Image adopted from [this article](https://www.coinbase.com/cloud/discover/dev-foundations/intro-to-avalanche-subnets))
+(Görsel [bu makaleden](https://www.coinbase.com/cloud/discover/dev-foundations/intro-to-avalanche-subnets) alınmıştır)
 
-<Callout title="Note">
-Every validator in an Avalanche L1 **must** also validate the Primary Network.
+<Callout title="Not">
+Bir Avalanche L1'deki her doğrulayıcı **aynı zamanda** Ana Ağı doğrulamak zorundadır.
 </Callout>
 
-Node operators that validate an Avalanche L1 with multiple chains do not need to run multiple machines for validation. For example, the Primary Network is an Avalanche L1 with three coexisting chains, all of which can be validated by a single node, or a single machine.
+Birden fazla zinciri doğrulayan Avalanche L1'leri, doğrulama için birden fazla makine çalıştırmak zorunda değildir. Örneğin, Ana Ağ, tek bir düğüm veya tek bir makine tarafından doğrulanabilen üç eşzamanlı zincire sahip bir Avalanche L1'dır.
 
-## Advantages
+## Avantajlar
 
-### Independent Networks
+### Bağımsız Ağlar
 
-- Avalanche L1s use virtual machines to specify their own execution logic, determine their own fee regime, maintain their own state, facilitate their own networking, and provide their own security.
-- Each Avalanche L1's performance is isolated from other Avalanche L1s in the ecosystem, so increased usage on one Avalanche L1 won't affect another.
-- Avalanche L1s can have their own token economics with their own native tokens, fee markets, and incentives determined by the Avalanche L1 deployer.
-- One Avalanche L1 can host multiple blockchains with customized [virtual machines](/learn/virtual-machines).
+- Avalanche L1'ler, kendi yürütme mantıklarını belirlemek, kendi ücret rejimlerini belirlemek, kendi durumlarını sürdürmek, kendi ağlarını kolaylaştırmak ve kendi güvenliklerini sağlamak için sanal makineler kullanır.
+- Her Avalanche L1'in performansı, ekosistemdeki diğer Avalanche L1'lerden izole edilmiştir, bu nedenle bir Avalanche L1'deki artan kullanım diğerini etkilemez.
+- Avalanche L1'ler, kendi yerel token'ları, ücret piyasaları ve Avalanche L1 dağıtımcısı tarafından belirlenen teşviklerle kendi token ekonomilerine sahip olabilir.
+- Bir Avalanche L1, özelleştirilmiş [sanal makineler](/learn/virtual-machines) ile birden fazla blok zincirine ev sahipliği yapabilir.
 
-### Native Interoperability
+### Yerel Eşler Arası İletişim
 
-Avalanche Warp Messaging enables native cross-Avalanche L1 communication and allows Virtual Machine (VM) developers to implement arbitrary communication protocols between any two Avalanche L1s.
+Avalanche Warp Messaging, yerel çapraz Avalanche L1 iletişimini sağlar ve Sanal Makine (VM) geliştiricilerinin herhangi iki Avalanche L1 arasında keyfi iletişim protokolleri uygulamasına olanak tanır.
 
-### Accommodate App-Specific Requirements
+### Uygulama Özel Gereksinimlerini Karşılama
 
-Different blockchain-based applications may require validators to have certain properties such as large amounts of RAM or CPU power.
+Farklı blok zinciri tabanlı uygulamalar, doğrulayıcıların büyük miktarda RAM veya CPU gücü gibi belirli özelliklere sahip olmasını gerektirebilir.
 
-an Avalanche L1 could require that validators meet certain [hardware requirements](/nodes/run-a-node/manually#hardware-and-os-requirements) so that the application doesn't suffer from low performance due to slow validators.
+Bir Avalanche L1, uygulamanın yavaş doğrulayıcılar nedeniyle düşük performans göstermemesi için doğrulayıcıların belirli [donanım gereksinimlerini](/nodes/run-a-node/manually#hardware-and-os-requirements) karşılamasını talep edebilir.
 
-### Launch Networks Designed With Compliance
+### Uyumlu Olarak Tasarlanmış Ağlar Başlatma
 
-Avalanche's Avalanche L1 architecture makes regulatory compliance manageable. As mentioned above, an Avalanche L1 may require validators to meet a set of requirements.
+Avalanche'ın Avalanche L1 mimarisi, düzenleyici uyumu yönetilebilir hale getirir. Yukarıda belirtildiği gibi, bir Avalanche L1, doğrulayıcıların belirli bir gereksinim setini karşılamasını talep edebilir.
 
-Some examples of requirements the creators of an Avalanche L1 may choose include:
+Bir Avalanche L1'in yaratıcılarının seçebileceği bazı gereksinim örnekleri şunlardır:
 
-- Validators must be located in a given country.
-- Validators must pass KYC/AML checks.
-- Validators must hold a certain license.
+- Doğrulayıcılar belirli bir ülkede bulunmalıdır.
+- Doğrulayıcılar KYC/AML kontrollerini geçmelidir.
+- Doğrulayıcılar belirli bir lisansa sahip olmalıdır.
 
-### Control Privacy of On-Chain Data
+### Zincir Üstü Verilerin Gizliliğini Kontrol Etme
 
-Avalanche L1s are ideal for organizations interested in keeping their information private.
+Avalanche L1'ler, bilgilerini gizli tutmak isteyen kuruluşlar için idealdir.
 
-Institutions conscious of their stakeholders' privacy can create a private Avalanche L1 where the contents of the blockchains would be visible only to a set of pre-approved validators.
+Paydaşlarının gizliliğine dikkat eden kurumlar, blok zincirlerinin içeriğinin yalnızca önceden onaylanmış bir doğrulayıcı setine görünür olacağı özel bir Avalanche L1 oluşturabilir.
 
-Define this at creation with a [single parameter](/nodes/configure/avalanche-l1-configs#private-avalanche-l1).
+Bunu oluşturma sırasında [tek bir parametre](/nodes/configure/avalanche-l1-configs#private-avalanche-l1) ile tanımlayın.
 
-### Validator Sovereignty
+### Doğrulayıcı Egemenliği
 
-In a heterogeneous network of blockchains, some validators will not want to validate certain blockchains because they simply have no interest in those blockchains.
+Heterojen bir blok zinciri ağında, bazı doğrulayıcılar, yalnızca o blok zincirlerine ilgi duymadıkları için belirli blok zincirlerini doğrulamak istemeyeceklerdir.
 
-The Avalanche L1 model enables validators to concern themselves only with blockchain networks they choose to participate in. This greatly reduces the computational burden on validators.
+Avalanche L1 modeli, doğrulayıcıların yalnızca katılmak istedikleri blok zinciri ağlarıyla ilgilenmelerini sağlar. Bu, doğrulayıcıların hesaplama yükünü büyük ölçüde azaltır.
 
-## Develop Your Own Avalanche L1
+## Kendi Avalanche L1'inizi Geliştirin
 
-Avalanche L1s on Avalanche are deployed by default with [Subnet-EVM](https://github.com/ava-labs/subnet-evm#subnet-evm), a fork of go-ethereum. It implements the Ethereum Virtual Machine and supports Solidity smart contracts as well as most other Ethereum client functionality.
+Avalanche'daki Avalanche L1'ler, varsayılan olarak [Subnet-EVM](https://github.com/ava-labs/subnet-evm#subnet-evm) kullanır; bu, go-ethereum'un bir forkudur. Ethereum Sanal Makinesi'ni kullanır ve Solidity akıllı sözleşmelerini ve diğer çoğu Ethereum istemci işlevselliğini destekler.
 
-To get started, check out the tutorials in our [Avalanche L1s](/avalanche-l1s/build-first-avalanche-l1) section.
+Başlamak için, [Avalanche L1'ler](/avalanche-l1s/build-first-avalanche-l1) bölümündeki eğitimlere göz atın.
 
 
 

@@ -1,52 +1,52 @@
 ---
-title: Avalanche Consensus
-description: Learn about the groundbreaking Avalanche Consensus algorithms.
+title: Avalanche Konsensüsü
+description: Çığır açan Avalanche Konsensüs algoritmaları hakkında bilgi edinin.
 ---
 
-Consensus is the task of getting a group of computers (a.k.a. nodes) to come to an agreement on a decision. In blockchain, this means that all the participants in a network have to agree on the changes made to the shared ledger.
+Konsensüs, bir grup bilgisayarın (yani düğümlerin) bir karar üzerinde anlaşmaya varma görevidir. Blockchain'de bu, bir ağdaki tüm katılımcıların paylaşılan defterde yapılan değişiklikler üzerinde hemfikir olmaları gerektiği anlamına gelir.
 
-This agreement is reached through a specific process, a consensus protocol, that ensures that everyone sees the same information and that the information is accurate and trustworthy.
+Bu anlaşma, herkesin aynı bilgileri görmesini ve bilgilerin doğru ve güvenilir olmasını sağlayan belirli bir süreç, bir konsensüs protokolü aracılığıyla sağlanır.
 
-## Avalanche Consensus
+## Avalanche Konsensüsü
 
-Avalanche Consensus is a consensus protocol that is scalable, robust, and decentralized. It combines features of both classical and Nakamoto consensus mechanisms to achieve high throughput, fast finality, and energy efficiency. For the whitepaper, see [here](https://www.avalabs.org/whitepapers).
+Avalanche Konsensüsü, ölçeklenebilir, sağlam ve merkeziyetsiz bir konsensüs protokolüdür. Yüksek verim, hızlı kesinlik ve enerji verimliliği sağlamak için hem klasik hem de Nakamoto konsensüs mekanizmalarının özelliklerini birleştirir. Beyaz bülten için [buraya](https://www.avalabs.org/whitepapers) bakın.
 
-Key Features Include:
+Anahtar Özellikler:
 
-- Speed: Avalanche consensus provides sub-second, immutable finality, ensuring that transactions are quickly confirmed and irreversible.
-- Scalability: Avalanche consensus enables high network throughput while ensuring low latency.
-- Energy Efficiency: Unlike other popular consensus protocols, participation in Avalanche consensus is neither computationally intensive nor expensive.
-- Adaptive Security: Avalanche consensus is designed to resist various attacks, including sybil attacks, distributed denial-of-service (DDoS) attacks, and collusion attacks. Its probabilistic nature ensures that the consensus outcome converges to the desired state, even when the network is under attack.
+- Hız: Avalanche konsensüsü, işlemlerin hızlı bir şekilde onaylandığı ve geri alınamaz olduğu, alt saniyelik, değişmez kesinlik sağlar.
+- Ölçeklenebilirlik: Avalanche konsensüsü, düşük gecikme ile yüksek ağ verimliliği sağlar.
+- Enerji Verimliliği: Diğer popüler konsensüs protokollerinin aksine, Avalanche konsensüsüne katılım ne hesaplama açısından yoğun ne de pahalıdır.
+- Adaptif Güvenlik: Avalanche konsensüsü, sybil saldırıları, dağıtılmış hizmet reddi (DDoS) saldırıları ve işbirliği saldırıları gibi çeşitli saldırılara karşı dirençli olacak şekilde tasarlanmıştır. Olasılıksal doğası, konsensüs sonucunun istenen duruma yakınsamasını sağlar, hatta ağ saldırı altındayken bile.
 
-## Conceptual Overview
+## Kavramsal Genel Bakış
 
-Consensus protocols in the Avalanche family operate through repeated sub-sampled voting. When a node is determining whether a [transaction](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) should be accepted, it asks a small, random subset of [validator nodes](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) for their preference. Each queried validator replies with the transaction that it prefers, or thinks should be accepted.
+Avalanche ailesindeki konsensüs protokolleri, tekrar eden alt örnekleme oylaması yoluyla çalışır. Bir düğüm, bir [işlemin](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) kabul edilip edilmeyeceğini belirlerken, küçük, rastgele bir [doğrulayıcı düğüm](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) alt kümesine tercihlerini sorar. Her sorgulanan doğrulayıcı, tercih ettiği veya kabul edilmesi gerektiğini düşündüğü işlemi yanıtlar.
 
-<Callout title="Note">
-Consensus will never include a transaction that is determined to be **invalid**. For example, if you were to submit a transaction to send 100 AVAX to a friend, but your wallet only has 2 AVAX, this transaction is considered **invalid** and will not participate in consensus.
+<Callout title="Not">
+Konsensüs, **geçersiz** olduğu belirlenen bir işlemi asla içermeyecektir. Örneğin, 100 AVAX'ı bir arkadaşınıza göndermek için bir işlem gönderirseniz, ancak cüzdanınızda yalnızca 2 AVAX varsa, bu işlem **geçersiz** olarak kabul edilir ve konsensüse katılmaz.
 </Callout>
 
-If a sufficient majority of the validators sampled reply with the same preferred transaction, this becomes the preferred choice of the validator that inquired.
+Eğer örneklenen doğrulayıcıların yeterli bir çoğunluğu aynı tercih edilen işlemle yanıt verirse, bu, sorgulayan doğrulayıcının tercih edilen seçeneği olur.
 
-In the future, this node will reply with the transaction preferred by the majority.
+Gelecekte, bu düğüm, çoğunluğun tercih ettiği işlemi yanıtlayacaktır.
 
-The node repeats this sampling process until the validators queried reply with the same answer for a sufficient number of consecutive rounds.
+Düğüm, sorgulanan doğrulayıcıların yeterli sayıda ardışık tur boyunca aynı yanıtı vermesi için bu örnekleme sürecini tekrarlar.
 
-- The number of validators required to be considered a "sufficient majority" is referred to as "α" (_alpha_).
-- The number of consecutive rounds required to reach consensus, a.k.a. the "Confidence Threshold," is referred to as "β" (_beta_).
-- Both α and β are configurable.
+- "Yeterli çoğunluk" olarak kabul edilen doğrulayıcı sayısı "α" (_alpha_) olarak adlandırılır.
+- Konsensüse ulaşmak için gereken ardışık tur sayısı, yani "Güven Eşiği", "β" (_beta_) olarak adlandırılır.
+- Hem α hem de β yapılandırılabilir.
 
-When a transaction has no conflicts, finalization happens very quickly. When conflicts exist, honest validators quickly cluster around conflicting transactions, entering a positive feedback loop until all correct validators prefer that transaction. This leads to the acceptance of non-conflicting transactions and the rejection of conflicting transactions.
+Bir işlemde çelişki yoksa, kesinlik çok hızlı gerçekleşir. Çelişkiler mevcut olduğunda, dürüst doğrulayıcılar çelişkili işlemler etrafında hızla kümelenir ve tüm doğru doğrulayıcılar o işlemi tercih edene kadar olumlu bir geri bildirim döngüsüne girer. Bu, çelişkisiz işlemlerin kabul edilmesine ve çelişkili işlemlerin reddedilmesine yol açar.
 
-![How Avalanche Consensus Works](/images/avalanche-consensus1.png)
+![Avalanche Konsensüsünün Çalışma Şekli](/images/avalanche-consensus1.png)
 
-Avalanche Consensus guarantees that if any honest validator accepts a transaction, all honest validators will come to the same conclusion.
+Avalanche Konsensüsü, herhangi bir dürüst doğrulayıcı bir işlemi kabul ederse, tüm dürüst doğrulayıcıların aynı sonuca ulaşacağını garanti eder.
 
-<Callout title="Note">
-For a great visualization, check out [this demo](https://tedyin.com/archive/snow-bft-demo/#/snow).
+<Callout title="Not">
+Harika bir görselleştirme için [bu demoya](https://tedyin.com/archive/snow-bft-demo/#/snow) göz atın.
 </Callout>
 
-## Deep Dive Into Avalanche Consensus
+## Avalanche Konsensüsüne Derin Dalış
 
 <iframe
   width="560"
@@ -58,123 +58,123 @@ For a great visualization, check out [this demo](https://tedyin.com/archive/snow
   allowFullScreen
 ></iframe>
 
-### Intuition
+### Sezgi
 
-First, let's develop some intuition about the protocol. Imagine a room full of people trying to agree on what to get for lunch. Suppose it's a binary choice between pizza and barbecue. Some people might initially prefer pizza while others initially prefer barbecue. Ultimately, though, everyone's goal is to achieve **consensus**.
+Öncelikle, protokol hakkında bazı sezgiler geliştirelim. Bir odada, ne yiyecekleri konusunda anlaşmaya çalışmaya çalışan insanlar olduğunu hayal edin. Varsayılan olarak, pizza ve barbekü arasında bir seçim yapılıyor. Bazı insanlar başlangıçta pizzayı tercih ederken, diğerleri barbeküyü tercih edebilir. Ancak nihayetinde herkesin amacı **konsensüs** elde etmektir.
 
-Everyone asks a random subset of the people in the room what their lunch preference is. If more than half say pizza, the person thinks, "OK, looks like things are leaning toward pizza. I prefer pizza now." That is, they adopt the _preference_ of the majority. Similarly, if a majority say barbecue, the person adopts barbecue as their preference.
+Herkes odadaki rastgele bir alt kümeden yemek tercihlerini sorar. Eğer yarısından fazlası pizzayı tercih ederse, kişi "Tamam, görünüşe göre pizza tarafında bir eğilim var. Artık pizzayı tercih ediyorum." der. Yani, çoğunluğun _tercihini_ benimser. Benzer şekilde, eğer çoğunluk barbekü derse, kişi barbeküyü tercih eder.
 
-Everyone repeats this process. Each round, more and more people have the same preference. This is because the more people that prefer an option, the more likely someone is to receive a majority reply and adopt that option as their preference. After enough rounds, they reach consensus and decide on one option, which everyone prefers.
+Herkes bu süreci tekrarlar. Her turda, daha fazla insan aynı tercihe sahip olur. Bu, bir seçeneği tercih eden daha fazla insan olduğunda, birinin çoğunluk yanıtı alması ve o seçeneği tercih olarak benimseme olasılığının artmasından kaynaklanır. Yeterince turdan sonra, konsensüse ulaşır ve herkesin tercih ettiği bir seçeneği belirlerler.
 
 ### Snowball
 
-The intuition above outlines the Snowball Algorithm, which is a building block of Avalanche consensus. Let's review the Snowball algorithm.
+Yukarıdaki sezgi, Avalanche konsensüsünün bir yapı taşı olan Snowball Algoritmasını özetler. Şimdi Snowball algoritmasını gözden geçirelim.
 
-#### Parameters
+#### Parametreler
 
-- _n_: number of participants
-- _k_ (sample size): between 1 and _n_
-- α (quorum size): between 1 and _k_
-- β (decision threshold): >= 1
+- _n_: katılımcı sayısı
+- _k_ (örnek boyutu): 1 ile _n_ arasında
+- α (quorum boyutu): 1 ile _k_ arasında
+- β (karar eşiği): >= 1
 
-#### Algorithm
+#### Algoritma
 
 ```
-preference := pizza
-consecutiveSuccesses := 0
-while not decided:
-  ask k random people their preference
-  if >= α give the same response:
-    preference := response with >= α
-    if preference == old preference:
-      consecutiveSuccesses++
+tercih := pizza
+ardışıkBaşarılar := 0
+karar verilmediği sürece:
+  k rastgele kişiye tercihlerini sor
+  eğer >= α aynı yanıtı verirse:
+    tercih := >= α olan yanıt
+    eğer tercih == eski tercih:
+      ardışıkBaşarılar++
     else:
-      consecutiveSuccesses = 1
+      ardışıkBaşarılar = 1
   else:
-    consecutiveSuccesses = 0
-  if consecutiveSuccesses > β:
-    decide(preference)
+    ardışıkBaşarılar = 0
+  eğer ardışıkBaşarılar > β:
+    karar ver(tercih)
 ```
 
-#### Algorithm Explained
+#### Algoritmanın Açıklaması
 
-Everyone has an initial preference for pizza or barbecue. Until someone has _decided_, they query _k_ people (the sample size) and ask them what they prefer. If α or more people give the same response, that response is adopted as the new preference. α is called the _quorum size_. If the new preference is the same as the old preference, the `consecutiveSuccesses` counter is incremented. If the new preference is different then the old preference, the `consecutiveSuccesses` counter is set to `1`. If no response gets a quorum (an α majority of the same response) then the `consecutiveSuccesses` counter is set to `0`.
+Herkesin pizza veya barbekü için bir başlangıç tercihi vardır. Birisi _karar vermediği_ sürece, _k_ kişiyi (örnek boyutu) sorgular ve neyi tercih ettiklerini sorar. Eğer α veya daha fazla kişi aynı yanıtı verirse, o yanıt yeni tercih olarak benimsenir. α, _quorum boyutu_ olarak adlandırılır. Yeni tercih eski tercihle aynıysa, `ardışıkBaşarılar` sayacı artırılır. Yeni tercih eski tercihten farklıysa, `ardışıkBaşarılar` sayacı `1` olarak ayarlanır. Eğer hiçbir yanıt bir quorum (α çoğunluğu) elde edemezse, `ardışıkBaşarılar` sayacı `0` olarak ayarlanır.
 
-Everyone repeats this until they get a quorum for the same response β times in a row. If one person decides pizza, then every other person following the protocol will eventually also decide on pizza.
+Herkes, aynı yanıt için β kez ardışık bir quorum elde edene kadar bu süreci tekrarlar. Eğer bir kişi pizzayı karar verirse, o zaman protokolü takip eden diğer herkes de sonunda pizzayı karar verecektir.
 
-Random changes in preference, caused by random sampling, cause a network preference for one choice, which begets more network preference for that choice until it becomes irreversible and then the nodes can decide.
+Rastgele örnekleme nedeniyle oluşan tercih değişiklikleri, bir seçim için ağ tercihi oluşturur, bu da o seçeneğe daha fazla ağ tercihi kazandırır ve bu tercih geri döndürülemez hale gelene kadar devam eder ve düğümler karar verebilir.
 
-In our example, there is a binary choice between pizza or barbecue, but Snowball can be adapted to achieve consensus on decisions with many possible choices.
+Örneğimizde, pizza veya barbekü arasında ikili bir seçim var, ancak Snowball, birçok olası seçimde konsensüs elde etmek için uyarlanabilir.
 
-The liveness and safety thresholds are parameterizable. As the quorum size, α, increases, the safety threshold increases, and the liveness threshold decreases. This means the network can tolerate more byzantine (deliberately incorrect, malicious) nodes and remain safe, meaning all nodes will eventually agree whether something is accepted or rejected. The liveness threshold is the number of malicious participants that can be tolerated before the protocol is unable to make progress.
+Canlılık ve güvenlik eşikleri parametreleştirilebilir. Quorum boyutu α arttıkça, güvenlik eşiği artar ve canlılık eşiği azalır. Bu, ağın daha fazla byzantine (kasıtlı yanlış, kötü niyetli) düğümü tolere edebilmesi ve güvenli kalması anlamına gelir; yani tüm düğümler, bir şeyin kabul edilip edilmeyeceği konusunda sonunda hemfikir olacaktır. Canlılık eşiği, protokolün ilerleme kaydedememesi için tolere edilebilecek kötü niyetli katılımcı sayısıdır.
 
-These values, which are constants, are quite small on the Avalanche Network. The sample size, _k_, is `20`. So when a node asks a group of nodes their opinion, it only queries `20` nodes out of the whole network. The quorum size, α, is `14`. So if `14` or more nodes give the same response, that response is adopted as the querying node's preference. The decision threshold, β, is `20`. A node decides on choice after receiving `20` consecutive quorum (α majority) responses.
+Bu değerler, Avalanche Ağı'nda sabitlerdir ve oldukça küçüktür. Örnek boyutu _k_, `20`'dir. Yani bir düğüm, düğümlerin görüşünü sorduğunda, yalnızca ağdaki `20` düğümü sorgular. Quorum boyutu α, `14`'tür. Yani, `14` veya daha fazla düğüm aynı yanıtı verirse, o yanıt sorgulayan düğümün tercihi olarak benimsenir. Karar eşiği β, `20`'dir. Bir düğüm, `20` ardışık quorum (α çoğunluğu) yanıtı aldıktan sonra bir seçim yapar.
 
-Snowball is very scalable as the number of nodes on the network, _n_, increases. Regardless of the number of participants in the network, the number of consensus messages sent remains the same because in a given query, a node only queries `20` nodes, even if there are thousands of nodes in the network.
+Snowball, ağdaki düğüm sayısı _n_ arttıkça çok ölçeklenebilir. Ağdaki katılımcı sayısından bağımsız olarak, gönderilen konsensüs mesajlarının sayısı aynı kalır çünkü bir sorguda bir düğüm yalnızca `20` düğümü sorgular, ağda binlerce düğüm olsa bile.
 
-Everything discussed to this point is how Avalanche is described in [the Avalanche white-paper](https://assets-global.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf). The implementation of the Avalanche consensus protocol by Ava Labs (namely in AvalancheGo) has some optimizations for latency and throughput.
+Bu noktaya kadar tartışılan her şey, Avalanche'ın [Avalanche beyaz bülteninde](https://assets-global.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf) nasıl tanımlandığıdır. Ava Labs tarafından Avalanche konsensüs protokolünün uygulanması (özellikle AvalancheGo'da) gecikme ve verimlilik için bazı optimizasyonlara sahiptir.
 
-### Blocks
+### Bloklar
 
-A block is a fundamental component that forms the structure of a blockchain. It serves as a container or data structure that holds a collection of transactions or other relevant information. Each block is cryptographically linked to the previous block, creating a chain of blocks, hence the term "blockchain."
+Bir blok, bir blockchain'in yapısını oluşturan temel bir bileşendir. Bir dizi işlem veya diğer ilgili bilgileri tutan bir kapsayıcı veya veri yapısı olarak hizmet eder. Her blok, bir önceki bloğa kriptografik olarak bağlıdır ve bu da blokların bir zincirini oluşturur; bu nedenle "blockchain" terimi kullanılır.
 
-In addition to storing a reference of its parent, a block contains a set of transactions. These transactions can represent various types of information, such as financial transactions, smart contract operations, or data storage requests.
+Bir blok, ebeveyninin referansını saklamanın yanı sıra, bir dizi işlem içerir. Bu işlemler, finansal işlemler, akıllı sözleşme işlemleri veya veri depolama talepleri gibi çeşitli bilgi türlerini temsil edebilir.
 
-If a node receives a vote for a block, it also counts as a vote for all of the block's ancestors (its parent, the parents' parent, etc.).
+Bir düğüm bir blok için oy aldığında, bu aynı zamanda blokun tüm atalarının (ebeveyninin, ebeveyninin ebeveyni vb.) oyları için de bir oy sayılır.
 
-### Finality
+### Kesinlik
 
-Avalanche consensus is probabilistically safe up to a safety threshold. That is, the probability that a correct node accepts a transaction that another correct node rejects can be made arbitrarily low by adjusting system parameters. In Nakamoto consensus protocol (as used in Bitcoin and Ethereum, for example), a block may be included in the chain but then be removed and not end up in the canonical chain. This means waiting an hour for transaction settlement. In Avalanche, acceptance/rejection are **final and irreversible** and only take a few seconds.
+Avalanche konsensüsü, bir güvenlik eşiğine kadar olasılıksal olarak güvenlidir. Yani, doğru bir düğümün, başka bir doğru düğümün reddettiği bir işlemi kabul etme olasılığı, sistem parametrelerini ayarlayarak son derece düşük hale getirilebilir. Nakamoto konsensüs protokolünde (örneğin Bitcoin ve Ethereum'da kullanılan), bir blok zincire dahil edilebilir ancak daha sonra çıkarılabilir ve kanonik zincirde yer almayabilir. Bu, işlem yerleşimi için bir saat beklemek anlamına gelir. Avalanche'da kabul/reddetme işlemleri **kesin ve geri alınamazdır** ve yalnızca birkaç saniye sürer.
 
-### Optimizations
+### Optimizasyonlar
 
-It's not safe for nodes to just ask, "Do you prefer this block?" when they query validators. In Ava Labs' implementation, during a query a node asks, "Given that this block exists, which block do you prefer?" Instead of getting back a binary yes/no, the node receives the other node's preferred block.
+Düğümlerin doğrulayıcılara "Bu bloğu tercih ediyor musunuz?" diye sorması güvenli değildir. Ava Labs'ın uygulamasında, bir sorgu sırasında bir düğüm "Bu blok mevcut olduğunda, hangi bloğu tercih edersiniz?" diye sorar. Evet/hayır şeklinde bir yanıt almak yerine, düğüm diğer düğümün tercih ettiği bloğu alır.
 
-Nodes don't only query upon hearing of a new block; they repeatedly query other nodes until there are no blocks processing.
+Düğümler yalnızca yeni bir blok duyduklarında sorgulamazlar; diğer düğümleri sorgulamaya devam ederler, ta ki işlenmekte olan hiçbir blok kalmayana kadar.
 
-Nodes may not need to wait until they get all _k_ query responses before registering the outcome of a poll. If a block has already received _alpha_ votes, then there's no need to wait for the rest of the responses.
+Düğümler, bir anketin sonucunu kaydetmek için tüm _k_ sorgu yanıtlarını almalarını beklemek zorunda olmayabilirler. Eğer bir blok zaten _alpha_ oy almışsa, o zaman geri kalan yanıtları beklemeye gerek yoktur.
 
-### Validators
+### Doğrulayıcılar
 
-If it were free to become a validator on the Avalanche network, that would be problematic because a malicious actor could start many, many nodes which would get queried very frequently. The malicious actor could make the node act badly and cause a safety or liveness failure. The validators, the nodes which are queried as part of consensus, have influence over the network. They have to pay for that influence with real-world value in order to prevent this kind of ballot stuffing. This idea of using real-world value to buy influence over the network is called Proof of Stake.
+Eğer Avalanche ağında bir doğrulayıcı olmak ücretsiz olsaydı, bu sorunlu olurdu çünkü kötü niyetli bir aktör birçok, birçok düğüm başlatabilir ve bunlar çok sık sorgulanabilir. Kötü niyetli aktör, düğümü kötü bir şekilde hareket ettirebilir ve bir güvenlik veya canlılık hatasına neden olabilir. Konsensüsün bir parçası olarak sorgulanan düğümler, ağ üzerinde etkiye sahiptir. Bu tür bir oy pusulası doldurmayı önlemek için bu etki için gerçek dünya değeri ile ödeme yapmaları gerekir. Gerçek dünya değerini kullanarak ağ üzerinde etki satın alma fikri, Hisse Kanıtı (Proof of Stake) olarak adlandırılır.
 
-To become a validator, a node must **bond** (stake) something valuable (**AVAX**). The more AVAX a node bonds, the more often that node is queried by other nodes. When a node samples the network it's not uniformly random. Rather, it's weighted by stake amount. Nodes are incentivized to be validators because they get a reward if, while they validate, they're sufficiently correct and responsive.
+Bir doğrulayıcı olmak için, bir düğüm değerli bir şeyi (**AVAX**) **bağlamalıdır** (stake). Bir düğüm ne kadar çok AVAX bağlarsa, diğer düğümler tarafından o kadar sık sorgulanır. Bir düğüm ağı örneklediğinde, bu rastgele değildir. Aksine, stake miktarına göre ağırlıklandırılmıştır. Düğümler, doğrulayıcı olmaya teşvik edilir çünkü doğrulama sırasında yeterince doğru ve yanıt verici olduklarında ödül alırlar.
 
-Avalanche doesn't have slashing. If a node doesn't behave well while validating, such as giving incorrect responses or perhaps not responding at all, its stake is still returned in whole, but with no reward. As long as a sufficient portion of the bonded AVAX is held by correct nodes, then the network is safe, and is live for virtuous transactions.
+Avalanche'da kesme (slashing) yoktur. Eğer bir düğüm doğrulama sırasında iyi davranmazsa, yanlış yanıtlar verirse veya hiç yanıt vermezse, stake'i tamamen geri alınır, ancak ödül verilmez. Bağlı AVAX'ın yeterli bir kısmı doğru düğümler tarafından tutulduğunda, ağ güvenli ve erdemli işlemler için canlıdır.
 
-### Big Ideas
+### Büyük Fikirler
 
-Two big ideas in Avalanche are **subsampling** and **transitive voting**.
+Avalanche'daki iki büyük fikir **alt örnekleme** ve **geçişli oylama**dır.
 
-Subsampling has low message overhead. It doesn't matter if there are twenty validators or two thousand validators; the number of consensus messages a node sends during a query remains constant.
+Alt örnekleme, düşük mesaj yüküne sahiptir. Yirmi doğrulayıcı veya iki bin doğrulayıcı olması fark etmez; bir düğüm bir sorgu sırasında gönderdiği konsensüs mesajlarının sayısı sabit kalır.
 
-Transitive voting, where a vote for a block is a vote for all its ancestors, helps with transaction throughput. Each vote is actually many votes in one.
+Geçişli oylama, bir blok için verilen bir oy, tüm ataları için bir oy olduğu anlamına gelir ve işlem verimliliğine yardımcı olur. Her oy, aslında birden fazla oy demektir.
 
-### Loose Ends
+### Gevşek Uçlar
 
-Transactions are created by users which call an API on an [AvalancheGo](https://github.com/ava-labs/avalanchego) full node or create them using a library such as [AvalancheJS](https://github.com/ava-labs/avalanchejs).
+İşlemler, kullanıcıların bir [AvalancheGo](https://github.com/ava-labs/avalanchego) tam düğümüne bir API çağrısı yaparak veya [AvalancheJS](https://github.com/ava-labs/avalanchejs) gibi bir kütüphane kullanarak oluşturmalarıyla meydana gelir.
 
-### Other Observations
+### Diğer Gözlemler
 
-Conflicting transactions are not guaranteed to be live. That's not really a problem because if you want your transaction to be live then you should not issue a conflicting transaction.
+Çelişkili işlemlerin canlı olması garanti edilmez. Bu gerçekten bir sorun değildir çünkü işleminizin canlı olmasını istiyorsanız, çelişkili bir işlem göndermemelisiniz.
 
-Snowman is the name of Ava Labs' implementation of the Avalanche consensus protocol for linear chains.
+Snowman, Ava Labs'ın lineer zincirler için Avalanche konsensüs protokolünün uygulamasının adıdır.
 
-If there are no undecided transactions, the Avalanche consensus protocol _quiesces_. That is, it does nothing if there is no work to be done. This makes Avalanche more sustainable than Proof-of-work where nodes need to constantly do work.
+Eğer kararsız işlemler yoksa, Avalanche konsensüs protokolü _quiesces_ olur. Yani, yapılacak iş yoksa hiçbir şey yapmaz. Bu, Avalanche'ı sürekli çalışmak zorunda olan İş Kanıtı (Proof-of-work) sistemlerinden daha sürdürülebilir hale getirir.
 
-Avalanche has no leader. Any node can propose a transaction and any node that has staked AVAX can vote on every transaction, which makes the network more robust and decentralized.
+Avalanche'ın bir lideri yoktur. Herhangi bir düğüm bir işlem önerebilir ve AVAX stake eden herhangi bir düğüm her işlem üzerinde oy kullanabilir, bu da ağı daha sağlam ve merkeziyetsiz hale getirir.
 
-## Why Do We Care?
+## Neden Önemli?
 
-Avalanche is a general consensus engine. It doesn't matter what type of application is put on top of it. The protocol allows the decoupling of the application layer from the consensus layer. If you're building a dapp on Avalanche then you just need to define a few things, like how conflicts are defined and what is in a transaction. You don't need to worry about how nodes come to an agreement. The consensus protocol is a black box that put something into it and it comes back as accepted or rejected.
+Avalanche, genel bir konsensüs motorudur. Üzerine hangi tür uygulamanın konulduğu önemli değildir. Protokol, uygulama katmanını konsensüs katmanından ayırmayı sağlar. Eğer Avalanche üzerinde bir dapp geliştiriyorsanız, yalnızca bazı şeyleri tanımlamanız gerekir, örneğin çelişkilerin nasıl tanımlandığı ve bir işlemde ne olduğu. Düğümlerin nasıl anlaşmaya vardığı konusunda endişelenmenize gerek yoktur. Konsensüs protokolü, içine bir şey koyduğunuz ve kabul edilmiş veya reddedilmiş olarak geri dönen bir kara kutudur.
 
-Avalanche can be used for all kinds of applications, not just P2P payment networks. Avalanche's Primary Network has an instance of the Ethereum Virtual Machine, which is backward compatible with existing Ethereum Dapps and dev tooling. The Ethereum consensus protocol has been replaced with Avalanche consensus to enable lower block latency and higher throughput.
+Avalanche, yalnızca P2P ödeme ağları için değil, her türlü uygulama için kullanılabilir. Avalanche'ın Ana Ağı, mevcut Ethereum Dapp'leri ve geliştirici araçlarıyla geriye dönük uyumlu olan Ethereum Sanal Makinesi'nin bir örneğine sahiptir. Ethereum konsensüs protokolü, daha düşük blok gecikmesi ve daha yüksek verimlilik sağlamak için Avalanche konsensüsü ile değiştirilmiştir.
 
-Avalanche is very performant. It can process thousands of transactions per second with one to two second acceptance latency.
+Avalanche çok performanslıdır. Bir ila iki saniye kabul gecikmesi ile binlerce işlemi işleyebilir.
 
-## Summary
+## Özet
 
-Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other documentations for building game-changing Dapps and financial instruments on Avalanche.
+Avalanche konsensüsü, dağıtık sistemlerde radikal bir atılımdır. Klasik ve Nakamoto konsensüs protokollerinden önce gelen büyük bir sıçrama temsil eder. Artık nasıl çalıştığına dair daha iyi bir anlayışa sahip olduğunuzda, Avalanche üzerinde devrim niteliğinde Dapp'ler ve finansal araçlar oluşturmak için diğer belgeleri kontrol edin.
 
 
 

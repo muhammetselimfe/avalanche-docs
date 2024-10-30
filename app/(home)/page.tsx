@@ -36,23 +36,23 @@ export default function HomePage(): React.ReactElement {
 function Highlights(): React.ReactElement {
   return (
     <div className="grid grid-cols-1 border-r md:grid-cols-2 lg:grid-cols-3">
-      <Highlight icon={SproutIcon} heading="Avalanche Protocol" link="/learn">
-        Learn about Avalanche Protocol and it's groundbreaking consensus algorithm.
+      <Highlight icon={SproutIcon} heading="Avalanche Protokolü" link="/learn">
+        Avalanche Protokolü ve çığır açan konsensüs algoritması hakkında bilgi edinin.
       </Highlight>
-      <Highlight icon={SquareGanttChart} heading="Smart Contracts" link="/dapps">
-        Your one stop shop to deploy smart contracts on the Avalanche C-Chain.
+      <Highlight icon={SquareGanttChart} heading="Akıllı Sözleşmeler" link="/dapps">
+        Avalanche C-Chain üzerinde akıllı sözleşmeleri dağıtmak için tek durak noktanız.
       </Highlight>
-      <Highlight icon={Layers} heading="Avalanche L1s" link="/avalanche-l1s">
-        Utilize the Avalanche tech stack to build your own layer 1 blockchain.
+      <Highlight icon={Layers} heading="Avalanche L1'ler" link="/avalanche-l1s">
+        Kendi katman 1 blok zincirinizi oluşturmak için Avalanche teknolojisini kullanın.
       </Highlight>
-      <Highlight icon={IndentDecrease} heading="Virtual Machines" link="/virtual-machines">
-        Learn how to customize the EVM or build new virtual machines from scratch.
+      <Highlight icon={IndentDecrease} heading="Sanal Makineler" link="/virtual-machines">
+        EVM'yi nasıl özelleştireceğinizi veya sıfırdan yeni sanal makineler oluşturacağınızı öğrenin.
       </Highlight>
-      <Highlight icon={MonitorCheck} heading="Nodes & Validators" link="/nodes">
-        Become an active participant in the network by running a node or validator.
+      <Highlight icon={MonitorCheck} heading="Düğüm ve Doğrulayıcılar" link="/nodes">
+        Bir düğüm veya doğrulayıcı çalıştırarak ağa aktif bir katılımcı olun.
       </Highlight>
-      <Highlight icon={MailIcon} heading="Interoperability" link="/cross-chain">
-        Advanced interoperability protocols to communicate with other blockchains.
+      <Highlight icon={MailIcon} heading="Etkileşim" link="/cross-chain">
+        Diğer blok zincirleriyle iletişim kurmak için gelişmiş etkileşim protokolleri.
       </Highlight>
     </div>
   );
@@ -112,9 +112,9 @@ function Introduction(): React.ReactElement {
     <div className="grid grid-cols-1 border-r md:grid-cols-2">
       <div className="flex flex-col border-l border-t px-6 py-12 md:py-16">
         <div className={cn(badgeVariants(), 'bg-red-500', 'text-white')}>1</div>
-        <h3 className="text-xl font-bold">Configure.</h3>
+        <h3 className="text-xl font-bold">Yapılandır.</h3>
         <p className="mb-8 text-fd-muted-foreground">
-          Configure your blockchain using Avalanche CLI.
+          Blok zincirinizi Avalanche CLI kullanarak yapılandırın.
         </p>
         <div className="relative flex flex-col">
           <CodeBlock
@@ -131,15 +131,15 @@ function Introduction(): React.ReactElement {
               />
             </Link>
             <Files className="z-[2] shadow-xl hide-icons relative dark:text-white group transition-all duration-300 ease-in-out [&[open]]:open [&:not([open])]:closed">
-              <Folder name="Using the above command, you can configure your:" defaultOpen>
+              <Folder name="Yukarıdaki komutu kullanarak yapılandırabileceğiniz:" defaultOpen>
               <Link href="/virtual-machines">
-              <File icon={<CpuIcon />} name="Virtual Machine" />
+              <File icon={<CpuIcon />} name="Sanal Makine" />
               </Link>
               <Link href="/avalanche-l1s/build-first-avalanche-l1#enter-your-avalanche-l1s-chainid">
-              <File icon={<Globe />} name="Chain ID" />
+              <File icon={<Globe />} name="Zincir ID" />
               </Link>
               <Link href="/avalanche-l1s/build-first-avalanche-l1#token-symbol">
-              <File icon={<BadgeDollarSign />} name="Token Name & Symbol" />
+              <File icon={<BadgeDollarSign />} name="Token Adı & Sembolü" />
               </Link>
               </Folder>
             </Files>
@@ -148,9 +148,9 @@ function Introduction(): React.ReactElement {
       </div>
       <div className="flex flex-col border-l border-t px-6 py-12 md:py-16">
         <div className={cn(badgeVariants(), 'bg-red-500', 'text-white')}>2</div>
-        <h3 className="text-xl font-bold">Deploy.</h3>
+        <h3 className="text-xl font-bold">Yayına Al.</h3>
         <p className="mb-8 text-fd-muted-foreground">
-          Deploy an interoperable layer 1 with a single command.
+          Tek bir komutla etkileşimli bir L1 çalıştırın.
         </p>
         <DeployBlockchainAnimation />
       </div>
@@ -163,75 +163,75 @@ function Features(): React.ReactElement {
     <div className="grid grid-cols-1 border-b border-r md:grid-cols-2">
       <Feature
         icon={Settings}
-        subheading="Toolings"
-        heading="Tools For Developers."
-        description="We provide a suite of tools to make your development experience as smooth as possible."
+        subheading="Araçlar"
+        heading="Geliştiriciler İçin Araçlar."
+        description="Geliştirme deneyiminizi mümkün olduğunca sorunsuz hale getirmek için bir dizi araç sağlıyoruz."
       >
       <div className="mt-8 flex flex-col gap-4">
         <Link href="/tooling/avalanche-cli" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <Terminal />
             <h3 className="font-semibold">Avalanche CLI</h3>
             <p className="text-sm text-fd-muted-foreground">
-              Command line interface for everything Avalanche.
+              Avalanche için her şeyin komut satırı arayüzü.
             </p>
         </Link>
         <Link href="https://github.com/ava-labs/avalanche-starter-kit" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
           <Cable />
-          <h3 className="font-semibold">Avalanche Starter Kit</h3>
+          <h3 className="font-semibold">Avalanche Başlangıç Kiti</h3>
           <p className="text-sm text-fd-muted-foreground">
-            Quickstart your journey into Avalanche with our Starter Kit.
+            Başlangıç Kitimizle Avalanche'a yolculuğunuza hızlı bir başlangıç yapın.
           </p>
         </Link>
         <Link href="https://github.com/ava-labs/hypersdk" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <IndentDecrease />
             <h3 className="font-semibold">HyperSDK</h3>
             <p className="text-sm text-fd-muted-foreground">
-              High performance, customizable framework for building blockchains.
+              Blok zincirleri oluşturmak için yüksek performanslı, özelleştirilebilir bir çerçeve.
             </p>
         </Link>
         </div>
       </Feature>
       <Feature
         icon={Webhook}
-        subheading="APIs"
-        heading="API References for anything Avalanche."
-        description="Well documented APIs for the Avalanche Network."
+        subheading="API'ler"
+        heading="Avalanche için her şeyin API Referansları."
+        description="Avalanche Ağı için iyi belgelenmiş API'ler."
       >
         <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
           <Link href="/api-reference/c-chain/api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">C-Chain API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API reference for the Contract Chain.
+              API referansı için Sözleşme Zinciri.
             </p>
           </Link>
           <Link href="/api-reference/p-chain/api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">P-Chain API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API reference for the Platform Chain.
+              API referansı için Platform Zinciri.
             </p>
           </Link>
           <Link href="/api-reference/x-chain/api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">X-Chain API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API reference for the Exchange Chain.
+              API referansı için Borsa Zinciri.
             </p>
           </Link>
           <Link href="/api-reference/admin-api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">AvalancheGo API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API reference for AvalancheGo.
+              API referansı için AvalancheGo.
             </p>
           </Link>
           <Link href="/api-reference/subnet-evm-api" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
             <h3 className="font-semibold">Subnet-EVM API</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API reference for Subnet-EVM.
+              API referansı için Subnet-EVM.
             </p>
           </Link>
           <Link href="https://developers.avacloud.io/introduction" target="_blank" className="rounded-xl border bg-fd-background p-4 shadow-lg transition-colors hover:bg-accent">
-            <h3 className="font-semibold">AvaCloud APIs</h3>
+            <h3 className="font-semibold">AvaCloud API'leri</h3>
             <p className="text-sm text-fd-muted-foreground">
-              API reference for AvaCloud.
+              API referansı için AvaCloud.
             </p>
           </Link>
         </div>

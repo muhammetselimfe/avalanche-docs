@@ -13,11 +13,11 @@ export const homebaseOptions: BaseLayoutProps = {
   },
   links: [
     {
-      text: 'Guides',
+      text: 'Kılavuzlar',
       url: 'https://academy.avax.network/guide',
     },
     {
-      text: 'Integrations',
+      text: 'Entegrasyonlar',
       url: '/integrations',
     },
   ],
@@ -36,11 +36,11 @@ export const baseOptions: BaseLayoutProps = {
       url: 'https://academy.avax.network',
     },
     {
-      text: 'Guides',
+      text: 'Kılavuzlar',
       url: 'https://academy.avax.network/guide',
     },
     {
-      text: 'Integrations',
+      text: 'Entegrasyonlar',
       url: '/integrations',
     },
   ],
@@ -56,50 +56,50 @@ export const docsOptions: DocsLayoutProps = {
       <RootToggle
         options={[
           {
-            title: 'Avalanche Protocol',
-            description: 'Learn about Avalanche',
+            title: 'Avalanche Protokolü',
+            description: 'Avalanche hakkında bilgi edinin',
             icon: <SproutIcon />,
             url: '/learn',
           },
           {
-            title: 'Smart Contracts',
-            description: 'Build Apps on Avalanche',
+            title: 'Akıllı Sözleşmeler',
+            description: 'Avalanche üzerinde Uygulamalar Geliştirin',
             icon: <SquareGanttChart />,
             url: '/dapps',
           },
           {
-            title: 'Avalanche L1s',
-            description: 'Build Your L1 Blockchain',
+            title: 'Avalanche L1\'ler',
+            description: 'Kendi L1 Blockchain\'inizi Oluşturun',
             icon: <Layers />,
             url: '/avalanche-l1s',
           },
           {
-            title: 'Virtual Machines',
-            description: 'Customize Your Execution Layer',
+            title: 'Sanal Makineler',
+            description: 'Yürütme Katmanınızı Özelleştirin',
             icon: <IndentDecrease />,
             url: '/virtual-machines',
           },
           {
-            title: 'Nodes & Validators',
-            description: 'Participate in the Network',
+            title: 'Düğümler ve Doğrulayıcılar',
+            description: 'Ağda Yer Alın',
             icon: <MonitorCheck />,
             url: '/nodes',
           },
           {
-            title: 'Interoperability',
-            description: 'AWM and Teleporter',
+            title: 'Etkileşim',
+            description: 'AWM ve Teleporter',
             icon: <MailIcon />,
             url: '/cross-chain',
           },
           {
-            title: 'Tooling',
-            description: 'CLI, Scripts, and More',
+            title: 'Araçlar',
+            description: 'CLI, Betikler ve Daha Fazlası',
             icon: <Settings />,
             url: '/tooling',
           },
           {
-            title: 'API Docs',
-            description: 'Avalanche API References',
+            title: 'API Belgeleri',
+            description: 'Avalanche API Referansları',
             icon: <Webhook />,
             url: '/api-reference',
           }
