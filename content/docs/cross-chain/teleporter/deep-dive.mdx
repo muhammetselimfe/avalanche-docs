@@ -101,6 +101,21 @@ A substring of the full test description can be used as well:
 GINKGO_FOCUS="Calculate Teleporter" ./scripts/local/e2e_test.sh
 ```
 
+### Example Test Code
+
+```javascript
+ginkgo.It("Send native tokens from Avalanche L1 A to B and back",
+    ginkgo.Label("cross chain apps"),
+    func() {
+        // Ensure flows is defined or imported correctly
+        if (typeof flows === 'undefined') {
+            console.error('flows is not defined. Please import or define flows.');
+        } else {
+            flows.NativeTokenBridge(LocalNetworkInstance);
+        }
+    })
+```
+
 The E2E tests also supports `GINKGO_LABEL_FILTER`, making it easy to group test cases and run them together. For example, to run all E2E tests for the example cross chain applications:
 
 ```bash
