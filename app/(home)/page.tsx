@@ -148,9 +148,9 @@ function Introduction(): React.ReactElement {
       </div>
       <div className="flex flex-col border-l border-t px-6 py-12 md:py-16">
         <div className={cn(badgeVariants(), 'bg-red-500', 'text-white')}>2</div>
-        <h3 className="text-xl font-bold">Dağıtım.</h3>
+        <h3 className="text-xl font-bold">Yayınla.</h3>
         <p className="mb-8 text-fd-muted-foreground">
-          Tek bir komutla etkileşimli bir katman 1 dağıtın.
+          Tek bir komutla etkileşimli bir katman 1 Yayınlayın.
         </p>
         <DeployBlockchainAnimation />
       </div>
