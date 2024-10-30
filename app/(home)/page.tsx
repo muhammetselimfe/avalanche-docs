@@ -112,7 +112,7 @@ function Introduction(): React.ReactElement {
     <div className="grid grid-cols-1 border-r md:grid-cols-2">
       <div className="flex flex-col border-l border-t px-6 py-12 md:py-16">
         <div className={cn(badgeVariants(), 'bg-red-500', 'text-white')}>1</div>
-        <h3 className="text-xl font-bold">Yapılandırın.</h3>
+        <h3 className="text-xl font-bold">Yapılandır.</h3>
         <p className="mb-8 text-fd-muted-foreground">
           Blok zincirinizi Avalanche CLI kullanarak yapılandırın.
         </p>
